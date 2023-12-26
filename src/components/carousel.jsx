@@ -1,4 +1,5 @@
 import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from 'embla-carousel-autoplay';
 
 const slides = [
   { url: "https://picsum.photos/200" },
@@ -16,19 +17,24 @@ const slides = [
 
 
 export default function Carousel() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+
+  const autoplayOption = {
+    delay: 4000,
+    rootNode: (emblaRoot) => emblaRoot.parentElement
+  }
+  
+  const [emblaRef ] = useEmblaCarousel({ loop: true },[Autoplay(autoplayOption)]);
+
  return(
   <div className='embla embla__viewport' ref={emblaRef}>
     <div className='flex flex-row '>
     {slides.map((slides,index) => (
-            <div className="embla__slide " key={index}>
-              <div className="">
-                <span>{index + 1}</span>
-              </div>
+            <div className="embla__slide p-5" key={index}>
               <img
                 className="embla__slide__img"
                 src={slides.url}
                 alt="Your alt text"
+                width="300px"
               />
             </div>
           ))}
