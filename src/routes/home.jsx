@@ -6,7 +6,7 @@ export default function Home() {
       <div classname="bg-black ">
        <Hero/> 
       <div>
-        <Carousel/>
+       <Carousel/>
       </div>
       </div>
   );
