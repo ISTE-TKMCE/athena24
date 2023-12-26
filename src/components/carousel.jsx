@@ -1,5 +1,6 @@
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay';
+import Card from "./card.jsx"
 
 const slides = [
   { url: "https://picsum.photos/200" },
@@ -29,15 +30,8 @@ export default function Carousel() {
   <div className='embla embla__viewport' ref={emblaRef}>
     <div className='flex flex-row '>
     {slides.map((slides,index) => (
-            <div className="embla__slide p-5" key={index}>
-              <img
-                className="embla__slide__img"
-                src={slides.url}
-                alt="Your alt text"
-                width="300px"
-              />
-            </div>
-          ))}
+            <Card index={index} slides={slides}/>
+        ))}
     </div>
   </div>
 );
