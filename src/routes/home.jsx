@@ -3,7 +3,7 @@ import Hero from "../components/hero.jsx"
 
 export default function Home() {
   return (
-      <div classname="bg-black ">
+      <div>
        <Hero/> 
       <div>
         <Carousel/>

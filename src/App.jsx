@@ -5,7 +5,7 @@ import Footer from "./components/footer.jsx"
 
 export default function App() {
   return(
-    <div className="bg-black p-5 text-white">
+    <div className="bg-black text-white">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
