@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero = () => (
-  <section className="min-h-screen relative bg-gradient-to-r from-hero-bg via-hero-bg to-hero-bg text-white">
+  <section className="min-h-screen relative bg-gradient-to-r from-hero-bg via-my-black to-hero-bg text-white">
     <img src="src\assets\iste_owl.png" alt="Image description" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain" />
     <div className="absolute inset-0 flex items-center justify-center text-center">
       <div>

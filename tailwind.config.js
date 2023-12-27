@@ -7,7 +7,9 @@ export default {
   theme: {
     colors: {
       'hero-bg' : '#43021C',
-      'my-white' : '#ffffff'
+      'my-white' : '#ffffff',
+      'my-black' : '#000000',
+      'my-yellow' : '#E5C100',
     },
     extend: {
       fontSize: {
