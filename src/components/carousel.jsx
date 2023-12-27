@@ -30,7 +30,7 @@ export default function Carousel() {
   <div className='embla embla__viewport' ref={emblaRef}>
     <div className='flex flex-row '>
     {slides.map((slides,index) => (
-            <Card index={index} slides={slides}/>
+            <Card key={index}  slides={slides}/>
         ))}
     </div>
   </div>

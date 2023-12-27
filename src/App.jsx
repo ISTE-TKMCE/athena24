@@ -1,7 +1,8 @@
 
-import { BrowserRouter, Routes, Route} from "react-router-dom"
+import { BrowserRouter, Routes, Route, useParams} from "react-router-dom"
 import Home from "./routes/home.jsx"
 import Footer from "./components/footer.jsx"
+import EventPage from "./routes/event.jsx"
 
 export default function App() {
   return(
@@ -9,6 +10,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="event/:eventid" element={<EventPage/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
