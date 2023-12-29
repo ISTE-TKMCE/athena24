@@ -19,7 +19,7 @@
   }
   .embla__slide {
    flex-wrap: wrap;
-    min-width:200px;
+    min-width:400px;
     padding-left: var(--slide-spacing);
     position: relative;
   }
