@@ -1,6 +1,6 @@
-export default function Card({index, slides}) {
+export default function Card({slides}) {
   return(
-    <div className="embla__slide p-5" key={index}>
+    <div className="embla__slide p-5" >
       <img
         className="embla__slide__img"
         src={slides.url}
