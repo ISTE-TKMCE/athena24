@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Cyberway Riders;
-  src: url("src\assets\Cyberway Riders.otf") format("opentype");
+  src: url("../src/assets/Cyberway Riders.otf") format("opentype");
 }
 
 .embla {
