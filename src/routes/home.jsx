@@ -9,9 +9,9 @@ export default function Home() {
        <Hero/> 
        <Blur/>
       <div>
-       <CustomH name="Events"/>
+       <CustomH name="Events" type="1"/>
        <Carousel/>
-       <CustomH name="Workshops"/>
+       <CustomH name="Workshops" type="1"/>
        <Carousel/>
       </div>
       </div>

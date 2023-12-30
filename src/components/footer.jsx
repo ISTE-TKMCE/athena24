@@ -1,13 +1,14 @@
+import CustomH from "../components/customh.jsx"
 export default function Footer() {
   return(
   <>
-    <footer className="h-full w-full bg-my-yellow ">
+    <footer className="h-full w-full bg-my-yellow p-2">
+      <CustomH name ="Contact us" type="2" />
       <div className="contianer p-2 h-full w-full grid grid-cols-4">
         <div className="img-container p-2 ">
-          <img className=" w-44 h-ful " src="src\assets\ISTE original logo black 1 (2).png" alt="" />
+          <img className=" w-44 h-full " src="src\assets\ISTE original logo black 1 (2).png" alt="" />
         </div>
         <div className="main-container text-black col-span-2 text-center">
-          <h2 className="text-3xl font-bold">Contact Us</h2><br />
           <div className="flex justify-between">
             <a href="#"><button className="p-3 rounded"><img className="w-10 h-10" src="src\assets\ig.png"></img></button></a>
             <a href="#"><button className="p-3 rounded"><img className="w-10 h-10" src="src\assets\x new(1).jpg"></img></button></a>
