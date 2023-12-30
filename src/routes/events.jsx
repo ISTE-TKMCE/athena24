@@ -8,15 +8,15 @@ export default function Events() {
   return(
     <div><CustomH name="Events" type="1"/>
       <div className="grid place-items-center">
-        <h2>Day 1</h2>
-      <div className="grid md:grid-cols-3  ">{eventdata_d1.map((event)=>{
+        <h2 className="text-2xl font-primary">Day 1</h2>
+      <div className="grid md:grid-cols-3 ">{eventdata_d1.map((event)=>{
         return(
         <Card eventid={event.eventid}/> 
         )
       })}</div>
       </div>
       <div className="grid place-items-center">
-        <h2>Day 2</h2>
+        <h2 className="text-2xl font-primary">Day 2</h2>
       <div className="grid md:grid-cols-3  ">{eventdata_d1.map((event)=>{
         return(
         <Card eventid={event.eventid}/> 

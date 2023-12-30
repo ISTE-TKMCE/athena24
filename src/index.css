@@ -26,7 +26,7 @@
 
 .embla__slide {
   flex-wrap: wrap;
-  min-width: 400px;
+  min-width: 380px;
   padding-left: var(--slide-spacing);
   position: relative;
 }
