@@ -1,17 +1,16 @@
-// Blur.jsx
 import React from "react";
 import PropTypes from "prop-types";
 
-const Blur = ({ position, backgroundColor, children }) => (
+const Blur = ({ blurCenter, blurRadius, children }) => (
   <div
-    className={`relative ${position} ${backgroundColor} overflow-hidden backdrop`}
+    className={`relative overflow-hidden backdrop`}
     style={{
       width: "100vw",
       height: "100vh",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      background: `radial-gradient(circle, #43021C, transparent)`,
+      background: `radial-gradient(circle at ${blurCenter}, #43021C, transparent ${blurRadius})`,
       color: "white",
     }}
   >
@@ -21,8 +20,8 @@ const Blur = ({ position, backgroundColor, children }) => (
 );
 
 Blur.propTypes = {
-  position: PropTypes.string,
-  backgroundColor: PropTypes.string,
+  blurCenter: PropTypes.string,
+  blurRadius: PropTypes.string,
   children: PropTypes.node,
 };
 
