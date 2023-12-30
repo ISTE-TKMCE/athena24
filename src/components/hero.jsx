@@ -1,10 +1,10 @@
 import React from "react";
 
 const Hero = () => (
-  <section className="min-h-screen relative bg-hero-bg text-white">
+  <section className="min-h-screen relative bg-hero-bg text-white font-primary">
     <div className="absolute inset-y-0 left-0 right-0 bottom-0 bg-my-black"></div>
     <img
-      src="src\assets\iste_owl.png"
+      src="src/assets/iste_owl.png"
       alt="Image description"
       className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
     />
