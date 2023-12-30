@@ -2,17 +2,17 @@ import React from "react";
 import Blur from "./blur";
 
 const Hero = () => {
+
   return (
     <section className="min-h-screen relative overflow-hidden text-white">
-      <Blur
-        blurCenter="0% 100%"
-        blurRadius="50%"
-      />
+      <Blur coordinates={{ position: "absolute", bottom: "-10%", left: "-5%"}} gradientColors={{fromColor:"hero-bg", toColor:"transparent"}} />
+      <Blur coordinates={{ position: "absolute", bottom: "10%", left: "80%" }} />
       <img
         src="src\assets\iste_owl.png"
         alt="Image description"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
       />
+      {/* lower portion mask for the image */}
       <div className="absolute inset-0 flex items-center justify-center text-center">
         <div>
           <h1 className="text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-bold text-my-white mt-72">

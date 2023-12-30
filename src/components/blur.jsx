@@ -1,28 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Blur = ({ blurCenter, blurRadius, children }) => (
+const Blur = ({ coordinates }) => (
   <div
-    className={`relative overflow-hidden backdrop`}
-    style={{
-      width: "100vw",
-      height: "100vh",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      background: `radial-gradient(circle at ${blurCenter}, #43021C, transparent ${blurRadius})`,
-      color: "white",
-    }}
-  >
-    {children}
-    <div className="absolute inset-y-0 left-0 right-0 bottom-0"></div>
-  </div>
+    style={coordinates}
+    aria-hidden="true"
+    className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 lg:w-120 lg:h-120 xl:w-150 xl:h-150 rounded-full bg-gradient-to-b from-hero-bg to-transparent blur-3xl mx-auto scale-y-150 scale-x-150 opacity-100"
+  ></div>
 );
 
 Blur.propTypes = {
-  blurCenter: PropTypes.string,
-  blurRadius: PropTypes.string,
-  children: PropTypes.node,
+  coordinates: PropTypes.object.isRequired,
 };
 
 export default Blur;
