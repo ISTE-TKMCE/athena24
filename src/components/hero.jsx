@@ -8,7 +8,7 @@ const Hero = () => {
       <Blur coordinates={{ position: "absolute", bottom: "-10%", left: "-5%"}} gradientColors={{fromColor:"hero-bg", toColor:"transparent"}} />
       <Blur coordinates={{ position: "absolute", bottom: "10%", left: "80%" }} />
       <img
-        src="src\assets\iste_owl.png"
+        src="src/assets/iste_owl.png"
         alt="Image description"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
       />
