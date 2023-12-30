@@ -6,17 +6,17 @@ export default function CustomH({name,type}) {
   if(type == 1){
     return(
         <div className="font-primary text-center text-4xl m-5">
-          <img className="h-1 w-2/5 inline-block m-4" src={line1} alt="" />
+          <img className="h-1 md:w-2/5 w-2/12 inline-block m-4" src={line1} alt="" />
           {name}
-          <img className="h-1 w-2/5 inline-block m-4" src={line2} alt="" />
+          <img className="h-1 md:w-2/5 w-2/12 inline-block m-4" src={line2} alt="" />
         </div>
     ) 
   }else{
     return(
       <div className="font-primary text-black text-center text-4xl  mb-4">
-        <img className="h-1 w-2/5 inline-block m-4" src={linef} alt="" />
+        <img className="h-1 md:w-2/5 w-2/12 inline-block m-4" src={linef} alt="" />
         {name}
-        <img className="h-1 w-2/5 inline-block m-4" src={lines} alt="" />
+        <img className="h-1 md:w-2/5 w-2/12 inline-block m-4" src={lines} alt="" />
       </div>
     )
   }

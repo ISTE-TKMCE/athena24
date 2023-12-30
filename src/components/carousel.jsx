@@ -27,7 +27,7 @@ export default function Carousel() {
   const [emblaRef ] = useEmblaCarousel({ loop: true },[Autoplay(autoplayOption)]);
 
  return(
-  <div className='embla embla__viewport' ref={emblaRef}>
+  <div className='embla embla__viewport md:m-10' ref={emblaRef}>
     <div className='flex flex-row '>
     {slides.map((slides,index) => (
             <Card key={index}  slides={slides}/>

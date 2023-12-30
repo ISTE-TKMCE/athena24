@@ -11,7 +11,7 @@ export default function Footer() {
       <CustomH name ="Contact us" type="2" />
       <div className="contianer p-2 h-full w-full grid grid-cols-4">
         <div className="img-container p-2 ">
-          <img className=" w-44 h-full " src={athenalogo} alt="" />
+          <img className=" md:w-44 md:h-full " src={athenalogo} alt="" />
         </div>
         <div className="main-container text-black col-span-2 text-center">
           <div className="flex justify-between">
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="img-container p-2 ">
-          <img className=" w-48 h-full float-right " src={istelogo} alt="" />
+          <img className=" md:w-48  md:h-full  float-right " src={istelogo} alt="" />
         </div>
       </div>
     </footer>
