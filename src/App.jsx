@@ -10,7 +10,7 @@ import Schedule from "./routes/schedule.jsx"
 
 export default function App() {
   return(
-    <div className="bg-black text-white">
+    <div className="bg-black text-white min-h-screen">
       <BrowserRouter>
         <NavBar/>
         <Routes >
