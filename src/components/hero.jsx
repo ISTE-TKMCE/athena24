@@ -2,7 +2,7 @@ import React from "react";
 import owl from "../assets/iste_owl.png"
 
 const Hero = () => (
-  <section className="min-h-screen relative bg-hero-bg text-white font-primary">
+  <section className="min-h-[70vh] relative bg-hero-bg text-white font-primary">
     <div className="absolute inset-y-0 left-0 right-0 bottom-0 bg-my-black"></div>
     <img
       src={owl}
