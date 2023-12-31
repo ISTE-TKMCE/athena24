@@ -13,7 +13,7 @@ export default function App() {
     <div className="bg-black text-white">
       <BrowserRouter>
         <NavBar/>
-        <Routes>
+        <Routes >
           <Route path="/" element={<Home/>} />
           <Route path="/event/:eventid" element={<EventPage/>}/>
           <Route path="/events" element={<Events/>}/>
