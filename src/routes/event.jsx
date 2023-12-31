@@ -12,12 +12,12 @@ export default function EventPage() {
   return (
     <div>
       <CustomH name={event.name} type="1" />
-      <div className="grid md:grid-cols-2 h-96 font-mono text-lg">
+      <div className="grid grid-rows-2 gap-y-2 h-1/2 md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
         <div className="flex justify-center ">
           <img className="w-64" src={event.posters[0]} />
         </div>
         <div className="flex justify-center">
-          <div className="w-80">
+          <div className="w-80 m-5">
             <div className="mb-2">
               <span className="text-3xl font-semibold font-serif ml-16">
                 Description
