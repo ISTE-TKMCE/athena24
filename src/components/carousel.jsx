@@ -1,20 +1,7 @@
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay';
 import Card from "./card.jsx"
-
-const slides = [
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
-  { url: "https://picsum.photos/200" },
- 
-];
+import eventsDetails from "../content/events.js"
 
 
 export default function Carousel() {
@@ -29,8 +16,8 @@ export default function Carousel() {
  return(
   <div className='embla embla__viewport md:m-10' ref={emblaRef}>
     <div className='flex flex-row '>
-    {slides.map((slides,index) => (
-            <Card key={index}  slides={slides}/>
+    {eventsDetails.map((event) => (
+            <Card eventid={event.id}/>
         ))}
     </div>
   </div>
