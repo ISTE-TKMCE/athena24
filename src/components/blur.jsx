@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+
 const Blur = ({ coordinates }) => (
   <div
-    style={coordinates}
-    aria-hidden="true"
-    className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 lg:w-120 lg:h-120 xl:w-150 xl:h-150 rounded-full bg-gradient-to-b from-hero-bg to-transparent blur-3xl mx-auto scale-y-150 scale-x-150 opacity-100"
+  style={{
+    ...coordinates,
+    background: "radial-gradient(circle, #EC0A65, #000000)",
+  }}
+    className="w-96 h-96 sm:w-96 sm:h-96 md:w-96 md:h-96 lg:w-96 lg:h-96 xl:w-96 xl:h-96 rounded-full blur-3xl mx-auto scale-y-150 scale-x-150 opacity-70"
   ></div>
 );
 
