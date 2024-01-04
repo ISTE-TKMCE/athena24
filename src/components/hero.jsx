@@ -3,7 +3,7 @@ import Blur from "./blur";
 
 const Hero = () => {
   // Determine if the device is a smartphone or a laptop
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = window.innerWidth <= 480;
 
   // Set coordinates based on the device type
   const blur1Coordinates = isMobile
