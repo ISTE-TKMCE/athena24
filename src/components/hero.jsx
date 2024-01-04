@@ -19,7 +19,7 @@ const Hero = () => {
       <Blur coordinates={blur1Coordinates} />
       <Blur coordinates={blur2Coordinates} />
       <img
-        src="src\assets\iste_owl.png"
+        src="src/assets/iste_owl.png"
         alt="Image description"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
       />
