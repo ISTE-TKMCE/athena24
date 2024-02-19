@@ -2,24 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Cyberway Riders;
+  src: url("../src/assets/Cyberway Riders.otf") format("opentype");
+}
 
 .embla {
-    --slide-spacing: 0.5rem;
-    --slide-size: 100%;
-    --slide-height: 19rem;
-  }
-  .embla__viewport {
-    overflow: hidden;
-  }
-  .embla__container {
-    backface-visibility: hidden;
-    display: flex;
-    touch-action: pan-y;
-    margin-left: calc(var(--slide-spacing) * -1);
-  }
-  .embla__slide {
-   flex-wrap: wrap;
-    min-width:400px;
-    padding-left: var(--slide-spacing);
-    position: relative;
-  }
+  --slide-spacing: 0.5rem;
+  --slide-size: 100%;
+  --slide-height: 19rem;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+  flex-wrap: wrap;
+  min-width: 380px;
+  padding-left: var(--slide-spacing);
+  position: relative;
+}

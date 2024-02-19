@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -14,12 +11,16 @@ export default {
       },
 
       fontSize: {
-        '10xl': '72px',
-        '12xl': '250px',
-        '7xl': '10.5rem',
-        '6xl': '4.75rem',
+        "10xl": "72px",
+        "12xl": "250px",
+        "7xl": "10.5rem",
+        "6xl": "4.75rem",
+      },
+
+      fontFamily: {
+        primary: "Cyberway Riders",
       },
     },
   },
   plugins: [],
-}
+};
