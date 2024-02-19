@@ -1,5 +1,6 @@
 import React from "react";
 import Blur from "./blur";
+import owl from "../assets/iste_owl.png"
 
 const Hero = () => {
   // Determine if the device is a smartphone or a laptop
@@ -15,11 +16,11 @@ const Hero = () => {
     : { position: "absolute", bottom: "20%", left: "80%"};
 
   return (
-    <section className="min-h-screen relative overflow-hidden text-white">
+    <section className="min-h-[70vh] relative text-white font-primary">
       <Blur coordinates={blur1Coordinates} />
       <Blur coordinates={blur2Coordinates} />
       <img
-        src="src/assets/iste_owl.png"
+        src={owl}
         alt="Image description"
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
       />
