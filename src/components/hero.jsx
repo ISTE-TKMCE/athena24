@@ -16,7 +16,7 @@ const Hero = () => {
     : { position: "absolute", bottom: "20%", left: "80%"};
 
   return (
-    <section className="min-h-[70vh] relative text-white font-primary">
+    <section className="min-h-[70vh] relative overflow-hidden text-white font-primary">
       <Blur coordinates={blur1Coordinates} />
       <Blur coordinates={blur2Coordinates} />
       <img
