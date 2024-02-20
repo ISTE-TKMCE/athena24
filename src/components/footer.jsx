@@ -15,9 +15,9 @@ export default function Footer() {
         </div>
         <div className="main-container text-black col-span-2 text-center">
           <div className="flex justify-between">
-            <a href="#"><button className="p-3 rounded"><img className="w-10 h-10" src={ig}></img></button></a>
+            <a href="https://www.instagram.com/iste_tkmce_/"><button className="p-3 rounded"><img className="w-10 h-10" src={ig}></img></button></a>
             <a href="#"><button className="p-3 rounded"><img className="w-10 h-10" src={x}></img></button></a>
-            <a href="#"><button className="p-3 rounded"><img className="w-10 h-10" src={linkedin}></img></button></a>
+            <a href="https://www.linkedin.com/company/istetkmce"><button className="p-3 rounded"><img className="w-10 h-10" src={linkedin}></img></button></a>
           </div><br /><br />
           <div className="flex justify-between">
             <a href="/details"><span className=" text-xs text-gray-600 hover:text-gray-950">Terms Of Use</span></a>

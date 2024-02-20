@@ -23,12 +23,12 @@ const Hero = () => {
       <img
         src={owl}
         alt="Image description"
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain transition-transform hover:scale-110 duration-1000"
       />
       <img
         src={athena}
         alt="Athena"
-        className="z-50 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        className="z-50 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-transform hover:scale-110 duration-1000"
       />
     </section>
   );
