@@ -5,8 +5,10 @@ export default function Events() {
   const eventdata_d1 = eventsDetais.filter((e)=> {
     return e.date == "19-01-2024"
   })
+  console.log(eventdata_d1)
   return(
-    <div><CustomH name="Events" type="1"/>
+    <div>
+      <CustomH name="Events" type="1"/>
       <div className="grid place-items-center">
         <h2 className="text-2xl font-primary">Day 1</h2>
       <div className="grid md:grid-cols-3 ">{eventdata_d1.map((event)=>{
@@ -24,6 +26,7 @@ export default function Events() {
       })}</div>
       </div>
       
+
     </div>
   )
   

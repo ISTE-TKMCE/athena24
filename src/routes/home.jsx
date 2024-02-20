@@ -9,9 +9,9 @@ export default function Home() {
        <Hero/> 
       <div>
        <CustomH name="Events" type="1"/>
-       <Carousel/>
+        <div className="text-xl md:text-4xl font-primary text-center my-10">Coming Soon...</div>
        <CustomH name="Workshops" type="1"/>
-       <Carousel/>
+        <div className="text-xl md:text-4xl font-primary text-center my-10">Coming Soon...</div>
       </div>
       </div>
   );

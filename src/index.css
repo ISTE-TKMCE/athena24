@@ -7,6 +7,11 @@
   src: url("../src/assets/Cyberway Riders.otf") format("opentype");
 }
 
+@font-face {
+  font-family: Village;
+  src: url("../src/assets/Village.ttf") format("opentype");
+}
+
 .embla {
   --slide-spacing: 0.5rem;
   --slide-size: 100%;

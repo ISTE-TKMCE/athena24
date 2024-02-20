@@ -18,7 +18,7 @@ export default {
       },
 
       fontFamily: {
-        primary: "Cyberway Riders",
+        primary: "Village",
       },
     },
   },
