@@ -29,7 +29,7 @@ const Hero = () => {
           <h1 className="text-6xl md:text-6xl lg:text-7xl xl:text-9xl font-bold text-my-white mt-72">
             ATHENA
           </h1>
-          <p className="w-[80vw] text-2xl sm:text-3xl lg:text-5xl font-bold text-my-white">
+          <p className="w-[80vw] text-xl sm:text-3xl lg:text-5xl font-bold text-my-white">
 22   Annual  State Students' Convention of ISTE  Kerala  Section 
           </p>
         </div>
