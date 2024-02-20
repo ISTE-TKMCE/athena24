@@ -16,8 +16,8 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen relative overflow-hidden text-white">
-      <Blur coordinates={blur1Coordinates} />
-      <Blur coordinates={blur2Coordinates} />
+      {/* <Blur coordinates={blur1Coordinates} />
+      <Blur coordinates={blur2Coordinates} /> */}
       <img
         src="src/assets/iste_owl.png"
         alt="Image description"
