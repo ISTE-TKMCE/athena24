@@ -19,18 +19,20 @@ export default function App() {
 
   return (
     <div className="relative">
-      <Blur coordinates={coordinates} />
       <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/event/:eventid" element={<EventPage />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/workshops" element={<Workshops />} />
-          <Route path="/schedule" element={<Schedule />} />
-        </Routes>
+        <NavBar/>
+        <div className="relative z-10"> {/* Ensure that the navbar stays above the Blur component */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/event/:eventid" element={<EventPage />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/workshops" element={<Workshops />} />
+            <Route path="/schedule" element={<Schedule />} />
+          </Routes>
+        </div>
         <Footer />
       </BrowserRouter>
+      <Blur coordinates={coordinates} />
     </div>
   );
 }
