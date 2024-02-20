@@ -7,6 +7,7 @@ import NavBar from "./components/navbar.jsx"
 import Events from "./routes/events.jsx"
 import Workshops from "./routes/workshops.jsx";
 import Schedule from "./routes/schedule.jsx"
+import Details from "./routes/details.jsx"
 
 export default function App() {
   return(
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/events" element={<Events/>}/>
           <Route path="/workshops" element={<Workshops/>}/>
           <Route path="/schedule" element={<Schedule/>}/>
+          <Route path="/details" element={<Details/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
