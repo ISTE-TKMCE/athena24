@@ -18,8 +18,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-[70vh] relative overflow-hidden text-white font-primary">
-      <Blur coordinates={blur1Coordinates} />
-      <Blur coordinates={blur2Coordinates} />
+      
       <img
         src={owl}
         alt="Image description"

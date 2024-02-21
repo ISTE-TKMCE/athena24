@@ -12,6 +12,10 @@
   src: url("../src/assets/Village.ttf") format("opentype");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .embla {
   --slide-spacing: 0.5rem;
   --slide-size: 100%;
