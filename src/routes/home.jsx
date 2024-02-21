@@ -9,18 +9,18 @@ export default function Home() {
 
   // Set coordinates based on the device type
   const blur1Coordinates = isMobile
-    ? { position: "absolute", bottom: "20%", left: "-15%" }
-    : { position: "absolute", bottom: "20%", left: "-10%"};
+    ? { position: "absolute", bottom: "80%", left: "-15%" }
+    : { position: "absolute", bottom: "40%", left: "-10%"};
 
   const blur2Coordinates = isMobile
-    ? { position: "absolute", bottom: "70%", left: "30%" }
-    : { position: "absolute", bottom: "40%", left: "80%"};
+    ? { position: "absolute", bottom: "80%", left: "30%" }
+    : { position: "absolute", bottom: "50%", left: "80%"};
 
 
   return (
       <div className="overflow-hidden">
-<Blur coordinates={blur1Coordinates} />
-      <Blur coordinates={blur2Coordinates} />
+      <Blur coordinates={blur1Coordinates} />
+      <Blur class="hidden md:block" coordinates={blur2Coordinates} />
        <Hero/> 
       <div>
        <CustomH name="Events" type="1"/>
