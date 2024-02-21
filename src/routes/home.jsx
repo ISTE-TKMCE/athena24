@@ -9,11 +9,11 @@ export default function Home() {
 
   // Set coordinates based on the device type
   const blur1Coordinates = isMobile
-    ? { position: "absolute", bottom: "80%", left: "-15%" }
+    ? { position: "absolute", bottom: "40%", left: "-15%" }
     : { position: "absolute", bottom: "40%", left: "-10%"};
 
   const blur2Coordinates = isMobile
-    ? { position: "absolute", bottom: "80%", left: "30%" }
+    ? { position: "absolute", bottom: "60%", left: "30%" }
     : { position: "absolute", bottom: "50%", left: "80%"};
 
 
