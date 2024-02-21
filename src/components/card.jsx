@@ -1,7 +1,12 @@
 import eventsDetails from "../content/events.js"
 import {Link } from "react-router-dom"
+import {useEffect, useState} from "react";
 export default function Card({eventid}) {
-  const event = eventsDetails.find((e)=> e.id == eventid)
+  const event = eventsDetails.find(searchEvent)
+  function searchEvent(e){
+    return e.id == eventid;
+  }
+  console.log(event)
   return(
     <div className="embla__slide p-5 w-[400px]" >
       <div
