@@ -9,12 +9,12 @@ export default function Home() {
 
   // Set coordinates based on the device type
   const blur1Coordinates = isMobile
-    ? { position: "absolute", bottom: "40%", left: "-15%" }
-    : { position: "absolute", bottom: "40%", left: "-10%"};
+    ? { position: "absolute", top: "20%", left: "-15%" }
+    : { position: "absolute", top: "20%", left: "-10%"};
 
   const blur2Coordinates = isMobile
-    ? { position: "absolute", bottom: "60%", left: "30%" }
-    : { position: "absolute", bottom: "50%", left: "80%"};
+    ? { position: "absolute", top: "10%", left: "30%" }
+    : { position: "absolute", top: "10%", left: "80%"};
 
 
   return (
@@ -24,9 +24,9 @@ export default function Home() {
        <Hero/> 
       <div>
        <CustomH name="Events" type="1"/>
-        <div className="text-xl md:text-4xl font-primary text-center my-10">Coming Soon...</div>
+        <Carousel event/>
        <CustomH name="Workshops" type="1"/>
-        <div className="text-xl md:text-4xl font-primary text-center my-10">Coming Soon...</div>
+        <Carousel/>
       </div>
       </div>
   );

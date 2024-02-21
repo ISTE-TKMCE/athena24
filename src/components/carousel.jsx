@@ -4,7 +4,8 @@ import Card from "./card.jsx"
 import eventsDetails from "../content/events.js"
 
 
-export default function Carousel() {
+
+export default function Carousel({event}) {
 
   const autoplayOption = {
     delay: 4000,
@@ -12,8 +13,8 @@ export default function Carousel() {
   }
   
   const [emblaRef ] = useEmblaCarousel({ loop: true },[Autoplay(autoplayOption)]);
-
- return(
+ if(event) 
+{return(
   <div className='embla embla__viewport md:m-10' ref={emblaRef}>
     <div className='flex flex-row '>
     {eventsDetails.map((event) => (
@@ -21,5 +22,8 @@ export default function Carousel() {
         ))}
     </div>
   </div>
-);
+);}
+  else 
+{return(<div>nothing</div>)}
+  
 }
