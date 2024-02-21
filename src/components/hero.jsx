@@ -28,7 +28,7 @@ const Hero = () => {
       <img
         src={athena}
         alt="Athena"
-        className="z-50 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-transform hover:scale-110 duration-1000"
+        className="z-50 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-transform hover:scale-110 duration-1000 md:w-[1000px] "
       />
     </section>
   );
