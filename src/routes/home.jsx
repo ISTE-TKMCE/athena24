@@ -3,6 +3,7 @@ import Hero from "../components/hero.jsx"
 // import Blur from "../components/blur.jsx"
 import CustomH from "../components/customh.jsx"
 import Blur from "../components/blur.jsx"
+import {Link } from "react-router-dom"
 
 export default function Home() {
  const isMobile = window.innerWidth <= 480;
@@ -23,6 +24,7 @@ export default function Home() {
       <Blur class="hidden md:block" coordinates={blur2Coordinates} />
        <Hero/> 
       <div>
+        <Link to="/schedule"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3">Schedule</div></Link>
        <CustomH name="Events" type="1"/>
         <Carousel event/>
        <CustomH name="Workshops" type="1"/>

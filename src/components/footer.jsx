@@ -7,7 +7,7 @@ import linkedin from "../assets/linked.png"
 export default function Footer() {
   return(
   <>
-    <footer className="h-full w-full bg-my-yellow p-2">
+    <footer className="bottom-0 w-full bg-my-yellow p-2">
       <CustomH name ="Contact us" type="2" />
       <div className="contianer p-2 h-full w-full grid grid-cols-4">
         <div className="img-container p-2 ">
