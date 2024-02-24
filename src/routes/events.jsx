@@ -10,7 +10,7 @@ export default function Events() {
       <CustomH name="Events" type="1"/>
       <div className='grid grid-cols-1 md:grid-cols-3 px-8'>
     {eventsDetails.map((event) => (
-            <Card eventid={event.id}/>
+            <Card e eventid={event.id}/>
         ))}
     </div>
       

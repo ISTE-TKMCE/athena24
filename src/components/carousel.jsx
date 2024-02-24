@@ -2,6 +2,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay';
 import Card from "./card.jsx"
 import eventsDetails from "../content/events.js"
+import  workshopDetails from "../content/workshops.js"
 
 
 
@@ -18,12 +19,19 @@ export default function Carousel({event}) {
   <div className='embla embla__viewport md:m-10' ref={emblaRef}>
     <div className='flex flex-row '>
     {eventsDetails.map((event) => (
-            <Card eventid={event.id}/>
+            <Card e eventid={event.id}/>
         ))}
     </div>
   </div>
 );}
   else 
-{return(<div>nothing</div>)}
+{return(<div className='embla embla__viewport md:m-10' ref={emblaRef}>
+    <div className='flex flex-row '>
+    {workshopDetails.map((event) => (
+            <Card eventid={event.id}/>
+        ))}
+    </div>
+  </div>)
+}
   
 }
