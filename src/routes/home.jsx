@@ -4,8 +4,10 @@ import Hero from "../components/hero.jsx"
 import CustomH from "../components/customh.jsx"
 import Blur from "../components/blur.jsx"
 import {Link } from "react-router-dom"
+import {useState } from "react"
 
 export default function Home() {
+  const [toggle, setToggle] = useState();
  const isMobile = window.innerWidth <= 480;
 
   // Set coordinates based on the device type
@@ -25,6 +27,9 @@ export default function Home() {
        <Hero/> 
       <div>
         <Link to="/schedule"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Schedule</div></Link>
+        <div className="cursor-pointer bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative" onClick={()=> {setToggle(!toggle)}}>About Athena
+          {toggle ? <div className="text-xl p-3 ">ISTE TKMCE is glad to present ATHENA, 22nd Annual ISTE State Students' Convention. ATHENA is a manifesto of opportunities for young people to demonstrate and enrich their talents as well as to bring their ideas into life.The fiesta exhibits a new countenance of vigor to transform inventiveness to existence and enhance abounding opportunities to enlive and refurbish the flair of innovation in young minds. With the theme Revolutionizing Tomorrow with Technology, ISTE TKMCE is poised to give every student a truly one of a kind experience and a plethora of memories and valuable insights to carry on with you.</div> : null}
+        </div>
        <CustomH name="Events" type="1"/>
         <Carousel event/>
        <CustomH name="Workshops" type="1"/>

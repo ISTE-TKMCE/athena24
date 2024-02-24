@@ -1,7 +1,7 @@
 import React from "react";
 import Blur from "./blur";
 import owl from "../assets/iste_owl.png"
-import athena from "../assets/athena header 1.png"
+import athena from "../assets/athena header-svg.svg"
 
 const Hero = () => {
   // Determine if the device is a smartphone or a laptop
