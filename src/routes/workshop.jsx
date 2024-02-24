@@ -12,7 +12,7 @@ export default function WorkshopPage() {
   event = event[0];
   //console.log(event)
   return (
-    <div className="grid justify-items-center gap-5">
+    <div className="grid justify-items-center gap-5 md:h-screen">
       <CustomH name={event.name} type="1" />
       <div className="grid grid-rows-2 gap-y-2 h-1/2 md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
         <div className="flex justify-center ">
