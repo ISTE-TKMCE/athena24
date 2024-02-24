@@ -29,9 +29,10 @@ export default function WorkshopPage() {
               </span>
               <div className="mt-4">{event.details}</div>
             </div>
+            <div className="text-xl font-bold text-yellow-300">Price : {event.price}Rs</div>
             <div className="mt-14">
-              <div className="font-bold">Date : {event.date}</div>
-              <div className="underline">Coordinators </div>
+              <div className="font-bold my-2 text-lg">Date : {event.date}</div>
+              <div className="underline font-bold">Coordinators </div>
               <div>
                 {event.coordinators[0].name}: {event.coordinators[0].phone}
               </div>

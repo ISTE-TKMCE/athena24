@@ -1,7 +1,7 @@
 const workshopDetails= [{
   id: "3d-printing",
   name : "Modelling and 3D Printing Workshop",
-  details: "Got brilliant designs in your head that you just can't transform into reality? Struggling to breathe life into your ideas? Attain expertise in designing prototypes, customizing different products and perfecting the efficiency of each product with your own hands.✨Prepare yourself to embark on this exciting journey with ISTE TKMCE's Modelling and 3D Printing Workshop.🤩Set for crafting and developing the next big product of tomorrow? Don't miss out on this wonderful opportunity to gain knowledge from the best and unleash your full talent to create products that change lives",
+  details: "Got brilliant designs in your head that you just can't transform into reality?\n Struggling to breathe life into your ideas? Attain expertise in designing prototypes, customizing different products and perfecting the efficiency of each product with your own hands.Prepare yourself to embark on this exciting journey with ISTE TKMCE's Modelling and 3D Printing Workshop.Set for crafting and developing the next big product of tomorrow? Don't miss out on this wonderful opportunity to gain knowledge from the best and unleash your full talent to create products that change lives",
   date : "17 March 2024",
   posters: ["/vite.svg"],
   price : 300,
@@ -10,7 +10,7 @@ const workshopDetails= [{
 },{
   id: "iot-automation",
   name : "IoT Automation",
-  details: "Tired of mundane tasks? Dream of a world where devices seamlessly respond to your needs?🤔Get ready to witness the future with ISTE TKMCE's IoT Automation Workshop as part of ATHENA.🤩 Master voice-controlled lights, sensor-adjusted comfort, and anticipatory devices using NodeMCU, Raspberry Pi, Blynk & Thingspeak.💫Ready to weave your own techspace?🤓 Don't miss this chance to learn from the best and unlock your potential to create smarter solutions.✨",
+  details: "Tired of mundane tasks? Dream of a world where devices seamlessly respond to your needs?Get ready to witness the future with ISTE TKMCE's IoT Automation Workshop as part of ATHENA. Master voice-controlled lights, sensor-adjusted comfort, and anticipatory devices using NodeMCU, Raspberry Pi, Blynk & Thingspeak.Ready to weave your own techspace? Don't miss this chance to learn from the best and unlock your potential to create smarter solutions.",
   date : "16 March 2024",
   posters: [""],
   price : 400,
