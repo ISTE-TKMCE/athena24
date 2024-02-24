@@ -12,7 +12,7 @@ export default function WorkshopPage() {
   event = event[0];
   //console.log(event)
   return (
-    <div>
+    <div className="grid justify-items-center gap-5">
       <CustomH name={event.name} type="1" />
       <div className="grid grid-rows-2 gap-y-2 h-1/2 md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
         <div className="flex justify-center ">
@@ -39,7 +39,7 @@ export default function WorkshopPage() {
           </div>
         </div>
       </div>
-      <Link to={event.link}>register</Link>
+      <Link to={event.link}><div className="my-5 mb-10 bg-yellow-300 rounded-xl text-black font-primary w-52 px-5 py-2 text-xl text-center">Register</div></Link>
     </div>
   );
 }
