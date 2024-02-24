@@ -12,14 +12,17 @@ export default function WorkshopPage() {
   event = event[0];
   //console.log(event)
   return (
-    <div className="grid justify-items-center gap-5 md:h-screen">
-      <CustomH name={event.name} type="1" />
+
+    <div className="text-center px-10 grid place-items-center md:h-screen md:grid-rows-3">
+        <div className="mix-blend-lighten font-primary text-center text-3xl md:text-4xl m-5">
+          {event.name}
+        </div>
       <div className="grid grid-rows-2 gap-y-2 h-1/2 md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
         <div className="flex justify-center ">
           <img className="w-64" src={event.posters[0]} />
         </div>
         <div className="flex justify-center">
-          <div className="w-80 m-5">
+          <div className="">
             <div className="mb-2">
               <span className="text-3xl font-semibold font-serif ml-16">
                 Description
