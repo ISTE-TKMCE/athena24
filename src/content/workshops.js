@@ -15,7 +15,7 @@ const workshopDetails= [{
   posters: ["/3d.jpg"],
   price : 400,
   coordinators : [{name: "S Suraj", phone:"7736287859"},{name: "Anjana", phone:"9633944709"}],
-    link: "https://bit.ly/_iot_automation"
+  link: "https://bit.ly/_iot_automation"
 },{
   id: "id3",
   name : "testname",
@@ -23,7 +23,8 @@ const workshopDetails= [{
   date : "19-01-2024",
   posters: [""],
   price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
+  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}],
+  link: "https://bit.ly/ATHENA_DRIVING_SYSTEM"
 },{
   id: "id3",
   name : "testname",

@@ -17,7 +17,7 @@ export default function WorkshopPage() {
         <div className="mix-blend-lighten font-primary text-center text-3xl md:text-4xl m-5">
           {event.name}
         </div>
-      <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
+      <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96  font-mono text-lg">
         <div >
           <CustomCarousel event={event.posters}/>
         </div>
