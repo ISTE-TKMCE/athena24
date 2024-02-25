@@ -13,12 +13,12 @@ export default function WorkshopPage() {
   //console.log(event)
   return (
 
-    <div className="text-center px-10 grid place-items-center md:min-h-screen md:grid-rows-3">
+    <div className="text-center md:px-10 px-3 grid place-items-center md:min-h-screen md:grid-rows-3">
         <div className="mix-blend-lighten font-primary text-center text-3xl md:text-4xl m-5">
           {event.name}
         </div>
       <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
-        <div >
+        <div className="grid justify-center md:block">
           <CustomCarousel event={event.posters}/>
         </div>
         <div className="flex justify-center">
