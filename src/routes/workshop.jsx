@@ -13,11 +13,11 @@ export default function WorkshopPage() {
   //console.log(event)
   return (
 
-    <div className="text-center px-10 grid place-items-center md:min-h-screen md:grid-rows-3">
+    <div className="text-center md:px-10 px-3 grid place-items-center md:min-h-screen md:grid-rows-3">
         <div className="mix-blend-lighten font-primary text-center text-3xl md:text-4xl m-5">
           {event.name}
         </div>
-      <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96  font-mono text-lg">
+      <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
         <div >
           <CustomCarousel event={event.posters}/>
         </div>
@@ -29,7 +29,8 @@ export default function WorkshopPage() {
               </span>
               <div className="mt-4">{event.details}</div>
             </div>
-            <div className="text-xl font-bold text-yellow-300 mt-8">Reg.Fee : {event.price}Rs</div>
+            <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}Rs</div>
+            <div className="text-xl font-bold text-yellow-300 mt-2">Deadline: {event.deadline}</div>
             <div className="mt-10">
               <div className="font-bold my-2 text-lg">Date : {event.date}</div>
               <div className="underline font-bold text-lg">Coordinators </div>
@@ -76,12 +77,12 @@ return(
 function CustomCard({src}){
   return(
 
-    <div className="embla__slide p-5 w-[500px]" >
+    <div className="embla__slide p-5 w-[400px]" >
       <div
         className="group embla__slide__img h-96 bg-white rounded-lg text-black grid place-content-center"
       >
-           <img src={src} className="object-fill w-full h-full"/>
-                </div>
+           <img src={src} className="object-fill "/>
+      </div>
     </div>
   
   )
