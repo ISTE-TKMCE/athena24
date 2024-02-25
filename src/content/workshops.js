@@ -6,7 +6,8 @@ const workshopDetails= [{
   posters: ["/3dm.jpg","/syllabusss_02.jpg","/2_02.jpg"],
   price : 300,
   coordinators : [{name: "Lakshmi", phone:"8301064679"},{name: "Anand", phone:"8593085041"}],
-  link: "https://bit.ly/ATHENA_3D_PRINTING"
+  link: "https://bit.ly/ATHENA_3D_PRINTING",
+  deadline : "8 March 2024"
 },{
   id: "iot-automation",
   name : "IoT Automation",
@@ -15,7 +16,8 @@ const workshopDetails= [{
   posters: ["/3d.jpg","/syllabusss_03.jpg","/2_03.jpg"],
   price : 400,
   coordinators : [{name: "S Suraj", phone:"7736287859"},{name: "Anjana", phone:"9633944709"}],
-    link: "https://bit.ly/_iot_automation"
+    link: "https://bit.ly/_iot_automation",
+  deadline : "8 March 2024"
 },{
   id: "id3",
   name : "testname",

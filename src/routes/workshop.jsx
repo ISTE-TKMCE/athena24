@@ -29,7 +29,8 @@ export default function WorkshopPage() {
               </span>
               <div className="mt-4">{event.details}</div>
             </div>
-            <div className="text-xl font-bold text-yellow-300 mt-8">Reg.Fee : {event.price}Rs</div>
+            <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}Rs</div>
+            <div className="text-xl font-bold text-yellow-300 mt-2">Deadline: {event.deadline}</div>
             <div className="mt-10">
               <div className="font-bold my-2 text-lg">Date : {event.date}</div>
               <div className="underline font-bold text-lg">Coordinators </div>
