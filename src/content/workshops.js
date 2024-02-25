@@ -3,7 +3,7 @@ const workshopDetails= [{
   name : "Modelling and 3D Printing Workshop",
   details: "Enter into the world where ideas turn into reality with Modelling and 3D Printing Workshop, as a part of ATHENA under the mentorship of the renowned maestro, Anas T.Understand prototype designing, product customization and many more concepts using CAD. Unleash your talents and design the products of the future with us by joining this workshop. Let's dive deep in to create a future with the most efficient products designed by ourselves to satiate our wants and wishes.",
   date : "17 March 2024",
-  posters: ["/3dm.jpg"],
+  posters:  ["/3d.jpg","/syllabusss_03.jpg","/2_03.jpg"],
   price : 300,
   coordinators : [{name: "Lakshmi", phone:"8301064679"},{name: "Anand", phone:"8593085041"}],
   link: "https://bit.ly/ATHENA_3D_PRINTING"
@@ -18,12 +18,12 @@ const workshopDetails= [{
   link: "https://bit.ly/_iot_automation"
 },{
   id: "id3",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
+  name : "Driving System",
+  details: "Explore the evolution of autonomous driving technology at the Autonomous Driving System Worksop at Athena, the 22nd Annual State Student Convention of ISTE Kerala Section. Under the guidance of Mr. Midhun M, founder of Revertech IT Solutions, engage in hands-on experiences with sensor technology and master machine learning concepts.  ",
+  date : "16 March 2024 & 17 March 2024",
   posters: [""],
   price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}],
+  coordinators : [{name: "Risal", phone:"9188537198"},{name: "Sinan", phone:"9526075042"}],
   link: "https://bit.ly/ATHENA_DRIVING_SYSTEM"
 },{
   id: "id3",
