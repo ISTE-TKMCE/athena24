@@ -13,11 +13,11 @@ export default function WorkshopPage() {
   //console.log(event)
   return (
 
-    <div className="text-center px-10 grid place-items-center md:h-screen md:grid-rows-3">
+    <div className="text-center px-10 grid place-items-center md:min-h-screen md:grid-rows-3">
         <div className="mix-blend-lighten font-primary text-center text-3xl md:text-4xl m-5">
           {event.name}
         </div>
-      <div className="text-left grid grid-rows-2 gap-y-2 h-1/2 md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
+      <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
         <div className="flex justify-center ">
           <img className="w-64" src={event.posters[0]} />
         </div>
@@ -29,10 +29,10 @@ export default function WorkshopPage() {
               </span>
               <div className="mt-4">{event.details}</div>
             </div>
-            <div className="text-xl font-bold text-yellow-300 m-3">Reg.Fee : {event.price}Rs</div>
-            <div className="mt-14">
+            <div className="text-xl font-bold text-yellow-300 mt-8">Reg.Fee : {event.price}Rs</div>
+            <div className="mt-10">
               <div className="font-bold my-2 text-lg">Date : {event.date}</div>
-              <div className="underline font-bold">Coordinators </div>
+              <div className="underline font-bold text-lg">Coordinators </div>
               <div>
                 {event.coordinators[0].name}: {event.coordinators[0].phone}
               </div>
