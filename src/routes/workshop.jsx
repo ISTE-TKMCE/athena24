@@ -76,12 +76,12 @@ return(
 function CustomCard({src}){
   return(
 
-    <div className="embla__slide p-5 w-[500px]" >
+    <div className="embla__slide p-5 w-[400px]" >
       <div
         className="group embla__slide__img h-96 bg-white rounded-lg text-black grid place-content-center"
       >
-           <img src={src} className="object-fill w-full h-full"/>
-                </div>
+           <img src={src} className="object-fill "/>
+      </div>
     </div>
   
   )
