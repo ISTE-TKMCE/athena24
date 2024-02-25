@@ -1,7 +1,7 @@
 const workshopDetails= [{
   id: "3d-printing",
   name : "Modelling and 3D Printing Workshop",
-  details: "Enter into the world where ideas turn into reality with ISTE TKMCE's Modelling and 3D Printing Workshop, part of ATHENA under the mentorship of the renowned maestro, Anas T. Understand prototype designing, product customization and many more concepts using CAD. \nUnleash your talents and design the products of the future with us by joining this workshop. Let's dive deep in to create a future with the most efficient products designed by ourselves to satiate our wants and wishes.",
+  details: "Enter into the world where ideas turn into reality with Modelling and 3D Printing Workshop, as a part of ATHENA under the mentorship of the renowned maestro, Anas T.Understand prototype designing, product customization and many more concepts using CAD. Unleash your talents and design the products of the future with us by joining this workshop. Let's dive deep in to create a future with the most efficient products designed by ourselves to satiate our wants and wishes.",
   date : "17 March 2024",
   posters: ["/3dm.jpg"],
   price : 300,
