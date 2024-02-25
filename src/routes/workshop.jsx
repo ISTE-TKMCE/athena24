@@ -18,8 +18,8 @@ export default function WorkshopPage() {
           {event.name}
         </div>
       <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
-        <div className="flex justify-center ">
-          <img className="w-64" src={event.posters[0]} />
+        <div >
+          <CustomCarousel event={event.posters}/>
         </div>
         <div className="flex justify-center">
           <div className="">
@@ -46,4 +46,43 @@ export default function WorkshopPage() {
       <Link to={event.link}><div className="my-5 mb-10 bg-yellow-300 rounded-xl text-black font-primary w-52 px-5 py-2 text-xl text-center">Register</div></Link>
     </div>
   );
+}
+
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from 'embla-carousel-autoplay';
+import Card from "../components/card.jsx"
+
+
+
+ function CustomCarousel({event}) {
+
+  const autoplayOption = {
+    delay: 4000,
+    rootNode: (emblaRoot) => emblaRoot.parentElement
+  }
+  
+  const [emblaRef ] = useEmblaCarousel({ loop: true },[Autoplay(autoplayOption)]);
+return(
+  <div className='embla embla__viewport md:m-10' ref={emblaRef}>
+    <div className='flex flex-row '>
+    {event.map((event, key) => (
+        <CustomCard src={event}/>
+        ))}
+    </div>
+  </div>
+);}
+
+
+function CustomCard({src}){
+  return(
+
+    <div className="embla__slide p-5 w-[500px]" >
+      <div
+        className="group embla__slide__img h-96 bg-white rounded-lg text-black grid place-content-center"
+      >
+           <img src={src} className="object-fill w-full h-full"/>
+                </div>
+    </div>
+  
+  )
 }

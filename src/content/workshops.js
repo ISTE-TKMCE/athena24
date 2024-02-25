@@ -3,7 +3,7 @@ const workshopDetails= [{
   name : "Modelling and 3D Printing Workshop",
   details: "Enter into the world where ideas turn into reality with ISTE TKMCE's Modelling and 3D Printing Workshop, part of ATHENA under the mentorship of the renowned maestro, Anas T. Understand prototype designing, product customization and many more concepts using CAD. \nUnleash your talents and design the products of the future with us by joining this workshop. Let's dive deep in to create a future with the most efficient products designed by ourselves to satiate our wants and wishes.",
   date : "17 March 2024",
-  posters: ["/vite.svg"],
+  posters: ["/vite.svg","/vite.svg"],
   price : 300,
   coordinators : [{name: "Lakshmi", phone:"8301064679"},{name: "Anand", phone:"8593085041"}],
   link: "https://bit.ly/ATHENA_3D_PRINTING"
