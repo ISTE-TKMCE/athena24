@@ -25,25 +25,9 @@ const workshopDetails= [{
   date : "16 March 2024 & 17 March 2024",
   deadline : "8 March 2024",
   posters: ["/ads3_01.jpg","/ads2_01.jpg","/ads1_01.jpg"],
-  price : 200,
+  price : 600,
   coordinators : [{name: "Risal", phone:"9188537198"},{name: "Sinan", phone:"9526075042"}],
   link: "https://bit.ly/ATHENA_DRIVING_SYSTEM"
-},{
-  id: "id4",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
-  posters: [""],
-  price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
-},{
-  id: "id5",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
-  posters: [""],
-  price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
 },
 ]
 export default workshopDetails;
