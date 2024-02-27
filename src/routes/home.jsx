@@ -31,6 +31,7 @@ export default function Home() {
         </div>
         <Link to="/schedule"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Schedule</div></Link>
         <Link to="/delegatepass"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Get Delegate Pass</div></Link>
+        <Link to="/accommodation"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Accommodation</div></Link>
         
        <CustomH name="Events" type="1"/>
         <Carousel event/>
