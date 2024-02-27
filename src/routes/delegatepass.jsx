@@ -6,7 +6,7 @@ export default function DelegatePass(){
       <div>
         <img src={poster} className="px-5"/>
       </div>
-      <Link to={"https://www.yepdesk.com/embed/buy-tickets/65d5ba7cc9e77c000171d68d/private/ch3mnatd0l"}><div className="my-5 mb-10 bg-yellow-300 rounded-xl text-black font-primary w-52 px-5 py-2 text-xl text-center">Get Pass</div></Link>
+      {/*<Link to={"https://www.yepdesk.com/embed/buy-tickets/65d5ba7cc9e77c000171d68d/private/ch3mnatd0l"}><div className="my-5 mb-10 bg-yellow-300 rounded-xl text-black font-primary w-52 px-5 py-2 text-xl text-center">Get Pass</div></Link>*/}
     </div>
   )
 }
