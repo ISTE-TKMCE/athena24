@@ -1,12 +1,11 @@
 import { useLocation, Link } from "react-router-dom";
 import CustomH from "../components/customh.jsx";
-import eventsDetails from "../content/events.js"
+import talkshowDetails from "../content/talkshow.js"
 
-
-export default function EventPage() {
+export default function TalkShowPage() {
   const location = useLocation();
   const eventid = location.pathname.split("/");
-  let event = eventsDetails.filter((e) => {
+  let event = talkshowDetails.filter((e) => {
     return e.id == eventid[2];
   });
   event = event[0];

@@ -9,6 +9,8 @@ import Workshops from "./routes/workshops.jsx";
 import Schedule from "./routes/schedule.jsx"
 import Details from "./routes/details.jsx"
 import WorkshopPage from "./routes/workshop.jsx"
+import DelegatePass from "./routes/delegatepass.jsx"
+import TallkShowPage from "./routes/talkshow.jsx"
 
 export default function App() {
   return(
@@ -19,10 +21,12 @@ export default function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/event/:eventid" element={<EventPage/>}/>
           <Route path="/workshop/:eventid" element={<WorkshopPage/>}/>
+          <Route path="/talkshow/:eventid" element={<TallkShowPage/>}/>
           <Route path="/events" element={<Events/>}/>
           <Route path="/workshops" element={<Workshops/>}/>
           <Route path="/schedule" element={<Schedule/>}/>
           <Route path="/details" element={<Details/>}/>
+          <Route path="/delegatepass" element={<DelegatePass/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
