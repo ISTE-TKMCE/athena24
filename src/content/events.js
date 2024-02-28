@@ -6,7 +6,7 @@ const eventsDetails = [{
   posters: ["/EUREKA flagship final.jpg","/EUREKA flagship final guidelines.jpg"],
   price : 100,
   coordinators : [{name: "Thameem", phone:"7736183501"},{name: "Nandana", phone:"7012636518"}],
-  link:"",
+  link:"https://bit.ly/-Eureka-",
   deadline : "nil"
 },{
   id: "id2",
