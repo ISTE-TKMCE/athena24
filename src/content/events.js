@@ -10,12 +10,14 @@ const eventsDetails = [{
   deadline : "nil"
 },{
   id: "id2",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
+  name : "Relay Coding",
+  details: "Dive into a series of practical challenges with Relay Coding as a part of ATHENA, 22nd Annual State Student Convention of Kerala Section putting your coding agility to test with real-world scenarios. Apply your coding know-how to solve challenges inspired by everyday situations, blending theory with real-world applications.Join forces with fellow coders for a collaborative coding experience and compete for coveted prizes and recognition.Engage in real-life problem-solving, amplify your coding acumen, and be part of a dynamic coding community.",
+  date : "16 March 2024",
   posters: [""],
-  price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
+  price : "",
+  coordinators : [{name: "Devakrishna A S", phone:"7736784259"},{name: "Joel Paul ", phone:"9447359118"}],
+  link:"https://www.yepdesk.com/relay-coding1",
+  deadline: "nil"
 },{
   id: "id3",
   name : "testname",
