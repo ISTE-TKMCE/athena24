@@ -7,7 +7,7 @@ const eventsDetails = [{
   price : 100,
   coordinators : [{name: "Thameem", phone:"7736183501"},{name: "Nandana", phone:"7012636518"}],
   link:"https://bit.ly/-Eureka-",
-  deadline : "nil"
+  deadline : "4 March 2024"
 },{
   id: "id2",
   name : "Relay Coding",
@@ -19,13 +19,15 @@ const eventsDetails = [{
   link:"https://www.yepdesk.com/relay-coding1",
   deadline: "nil"
 },{
-  id: "id3",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
+  id: "cipher-cell",
+  name : "Cipher Cell",
+  details: "Decipher, Unwind, Triumph: Embark on a Coding Odyssey!Ready to unlock your coding prowess and conquer a thrilling challenge? Brace yourselves for Cipher Cell – an event that will test your problem-solving skills, coding acumen and teamwork like never before! Prepare to decipher cryptic clues, unwind code knots and triumph over mind-bending tasks.Don't miss this exhilarating opportunity to sharpen your coding skills and to engage with a vibrant community of coders and enthusiasts.Unleash your inner coding warrior and claim the ultimate triumph!",
+  date : "17 March 2024",
   posters: [""],
-  price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
+  price : "",
+  coordinators : [{name: "Anandhu", phone:" 9074669356"},{name: "Eldho", phone:" 9188131235"}],
+  link:"https://www.yepdesk.com/cipher-cell",
+  deadline:"nil"
 },{
   id: "id3",
   name : "testname",
