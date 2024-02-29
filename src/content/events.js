@@ -47,7 +47,7 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Rishit Menon", phone:"8547765938"},{name: "Sona F Shukoor", phone:"7356022318"}],
   link:"https://www.yepdesk.com/warped-up-/private/e8ukm2l0g",
-  deadline:"14 March 2024"
+  deadline:"11 March 2024"
 },{
   id: "id4",
   name : "testname",
