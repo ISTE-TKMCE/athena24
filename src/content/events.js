@@ -37,7 +37,7 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass (Otherwise 30 RS)",
   coordinators : [{name: "Ghazali Mohamed", phone:"8714588474"},{name: "Paul Tomy ", phone:"8089914779"}],
   link: "https://www.yepdesk.com/e-golazo",
-  deadline: "nil"
+  deadline: "8 March 2024"
 },{
   id: "id3",
   name : "testname",
