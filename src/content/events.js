@@ -19,11 +19,11 @@ const eventsDetails = [{
   link:"https://www.yepdesk.com/relay-coding1",
   deadline: "11 March 2024"
 },{
-  id: "cipher-cell",
-  name : "Cipher Cell",
+  id: "cypher-cell",
+  name : "Cypher Cell",
   details: "Decipher, Unwind, Triumph: Embark on a Coding Odyssey!Ready to unlock your coding prowess and conquer a thrilling challenge? Brace yourselves for Cipher Cell – an event that will test your problem-solving skills, coding acumen and teamwork like never before! Prepare to decipher cryptic clues, unwind code knots and triumph over mind-bending tasks.Don't miss this exhilarating opportunity to sharpen your coding skills and to engage with a vibrant community of coders and enthusiasts.Unleash your inner coding warrior and claim the ultimate triumph!",
   date : "17 March 2024",
-  posters: [""],
+  posters: ["/cypher cell.jpg","/cypher cell guides.png"],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Anandhu", phone:" 9074669356"},{name: "Eldho", phone:" 9188131235"}],
   link:"https://www.yepdesk.com/cipher-cell",
