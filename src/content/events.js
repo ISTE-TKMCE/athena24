@@ -33,7 +33,7 @@ const eventsDetails = [{
   name : "E Golazo",
   details: "Finally, it's time for the best of managers to face off. So get your football brains up and lead your team to glory in a thrilling 7 round tournament. ISTE TKMCE is proud to announce E.Golazo, an e-soccer tournament as part of ATHENA, 22nd Annual State Students' Convention of ISTE KeralaSection.So the stage is set for all. Think you can handle the ultimate pressure of it all. So get your heads in the game and fight for the ultimate glory at E.Golazo.",
   date : "9 March 2024",
-  posters: [""],
+  posters: ["/e-golazo.png","/e-golazo gideline new.png"],
   price : "This Event Comes Under Delegate Pass (Otherwise 30 RS)",
   coordinators : [{name: "Ghazali Mohamed", phone:"8714588474"},{name: "Paul Tomy ", phone:"8089914779"}],
   link: "https://www.yepdesk.com/e-golazo",
