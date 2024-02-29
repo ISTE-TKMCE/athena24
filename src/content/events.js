@@ -43,11 +43,39 @@ const eventsDetails = [{
   name : "Warped Up",
   details: "ISTE TKMCE is blasting off on an epic interstellar adventure at ATHENA, the 22nd Annual State Students' Convention of ISTE Kerala Section. Brace yourself for Warped Up!, a thrilling scavenger hunt that will test your wit, challenge your skills, and propel you on a quest for cosmic glory. Crack cryptic codes and solve mind-bending riddles. Unearth hidden treasures buried deep within the depths of space.",
   date : "16 March 2024",
-  posters: [""],
+  posters: ["/warped up.png","/warped up guidlines.png"],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Rishit Menon", phone:"8547765938"},{name: "Sona F Shukoor", phone:"7356022318"}],
   link:"https://www.yepdesk.com/warped-up-/private/e8ukm2l0g",
   deadline:"14 March 2024"
-},
+},{
+  id: "id4",
+  name : "testname",
+  details: "lorem ipsum",
+  date : "16 March 2024",
+  posters: [""],
+  price : "",
+  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
+  deadline:"14 March 2024"
+},{
+  id: "id4",
+  name : "testname",
+  details: "lorem ipsum",
+  date : "16 March 2024",
+  posters: [""],
+  price : "",
+  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
+  deadline:"14 March 2024"
+},{
+  id: "id4",
+  name : "testname",
+  details: "lorem ipsum",
+  date : "16 March 2024",
+  posters: [""],
+  price : "",
+  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
+  deadline:"14 March 2024"
+}
+
 ]
 export default eventsDetails;
