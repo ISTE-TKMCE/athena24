@@ -69,6 +69,26 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/rapid-talk/private/smv76ovoo3",
   deadline:"nil"
 },{
+  id: "constructathon",
+  name : "Constructathon",
+  details: "Welcome to the forefront of innovation in civil engineering! Embark on a transformative journey with ISTE TKMCE's Constructathon, a pivotal component of ATHENA, the 22nd Annual State Students' Convention of ISTE Kerala Section. In the spirit of Bob the Builder's resounding 'Yes, we can!' from his tools, Constructathon invites you to be a proactive creator, transcending traditional hackathons.",
+  date : "16 & 17th March 2024",
+  posters: [""],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Adhil Noufal", phone:"8137074224"},{name: "Parvathi S", phone:"9645919203"}],
+  link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
+  deadline:"14 March 2024"
+},{
+  id: "hit-the-wicket",
+  name : "Hit The Wicket ",
+  details: "Get ready for the ultimate showdown at Athena, the 22nd Annual ISTE State Student Convention of ISTE Kerala Section. ISTE TKMCE presents Hit the Wicket Challenge, an event that centers around precise overarm bowling and the spirit of fair play. Polish up your wicket-taking skills, it's time to shine!",
+  date : "17 March 2024",
+  posters: [""],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Anand Gopan G", phone:"8078947608"},{name: "Adithya Ramachandran", phone:"7994637820"}],
+  link: "https://www.yepdesk.com/hit-the-wicket/private/sm39974hvr",
+  deadline:"14 March 2024"
+},{
   id: "id4",
   name : "testname",
   details: "lorem ipsum",
