@@ -59,6 +59,16 @@ const eventsDetails = [{
   link:"https://www.yepdesk.com/brain-vault/private/7ld6ts0uge",
   deadline:"nil"
 },{
+  id: "rapid-talks",
+  name : "Rapid Talks",
+  details: "Immerse yourself in ISTE TKMCE's 'Rapid Talks', an awe-inspiring event at ATHENA, 22nd Annual State Student Convention of Kerala Section, lit by thought - provoking ideologies and fiery words. This distinctive competition pits two participants against each other, where they receive the same topic simultaneously and present their thoughts. This exciting exercise tests participants' rapid thinking, communication skills, and ability to deliver engaging speeches in real time.",
+  date : "17 March 2024",
+  posters: [""],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Ajay Raju", phone:"7994415131"},{name: "Khadeeja jibin", phone:"8086709636"}],
+  link: "https://www.yepdesk.com/rapid-talk/private/smv76ovoo3",
+  deadline:"nil"
+},{
   id: "id4",
   name : "testname",
   details: "lorem ipsum",
