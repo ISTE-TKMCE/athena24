@@ -11,7 +11,7 @@ const eventsDetails = [{
 },{
   id: "id2",
   name : "Relay Coding",
-  details: "Dive into a series of practical challenges with Relay Coding as a part of ATHENA, 22nd Annual State Student Convention of Kerala Section putting your coding agility to test with real-world scenarios. Apply your coding know-how to solve challenges inspired by everyday situations, blending theory with real-world applications.Join forces with fellow coders for a collaborative coding experience and compete for coveted prizes and recognition.Engage in real-life problem-solving, amplify your coding acumen, and be part of a dynamic coding community.",
+  details: "Dive into a series of practical challenges with RELAY CODING as a part of ATHENA, 22nd Annual State Students' Convention of Kerala Section putting your coding agility to test with real-world scenarios. Apply your coding know-how to solve challenges inspired by everyday situations, blending theory with real-world applications.Join forces with fellow coders for a collaborative coding experience and challenge the group's dynamics and members' coding prowess with tests requiring a quirky brain.",
   date : "16 March 2024",
   posters: ["/relay (1).jpg","/relay giudelines.png"],
   price : "This Event Comes Under Delegate Pass",
