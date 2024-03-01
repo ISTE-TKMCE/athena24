@@ -91,7 +91,7 @@ const eventsDetails = [{
   deadline:"14 March 2024"
 },{
   id: "among-us",
-  name : "Among us",
+  name : "Among Us",
   details: "Experience the thrill of Among Us like never before in a real-life extravaganza conducted by ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section. Complete tasks, call meetings, vote out imposters, or survive as one yourself. It's an unmatched adventure for the boldest among us.",
   date : "17 March 2024",
   posters: [""],
