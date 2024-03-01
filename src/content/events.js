@@ -90,23 +90,43 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
   deadline:"14 March 2024"
 },{
-  id: "id4",
-  name : "testname",
-  details: "lorem ipsum",
-  date : "16 March 2024",
+  id: "among-us",
+  name : "Among us",
+  details: "Experience the thrill of Among Us like never before in a real-life extravaganza conducted by ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section. Complete tasks, call meetings, vote out imposters, or survive as one yourself. It's an unmatched adventure for the boldest among us.",
+  date : "17 March 2024",
   posters: [""],
-  price : "",
-  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
-  deadline:"14 March 2024"
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Theertha", phone:"9207977670"},{name: "Shalfa", phone:"9995813296"}],
+  link: "https://www.yepdesk.com/among-us1/private/lff395famc",
+  deadline:"11 March 2024"
 },{
-  id: "id4",
+  id: "lablockdown",
+  name : "Lab Lockdown",
+  details: "Amidst a reactor meltdown, the industrial complex is in turmoil. Your task? Strategically navigate through challenging obstacles to secure freedom, with your team of 3-4 members. LabLockdown conducted by ATHENA, 22ndAnnual State Students'Convention of ISTE Kerala Section, offers more than just an escape – it's a journey of trials, teamwork, and triumph.",
+  date : "16 March 2024",
+  posters: [""],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Heloise Jose", phone:"8138010368"},{name: "Sanjith Santhosh", phone:"6282108015"}],
+  link: "https://www.yepdesk.com/lab-lockdown/private/6rc799u859",
+  deadline:"11 March 2024"
+},{
+  id: "id5",
   name : "testname",
   details: "lorem ipsum",
   date : "16 March 2024",
   posters: [""],
   price : "",
-  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
-  deadline:"14 March 2024"
+  coordinators : [{name: "hehe", phone:"999999999"},{name: "hehe", phone:"99999999"}],
+  deadline:"nil"
+},{
+  id: "id5",
+  name : "testname",
+  details: "lorem ipsum",
+  date : "16 March 2024",
+  posters: [""],
+  price : "",
+  coordinators : [{name: "hehe", phone:"999999999"},{name: "hehe", phone:"99999999"}],
+  deadline:"nil"
 }
 
 ]
