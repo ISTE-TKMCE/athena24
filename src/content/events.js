@@ -49,14 +49,15 @@ const eventsDetails = [{
   link:"https://www.yepdesk.com/warped-up-/private/e8ukm2l0g",
   deadline:"11 March 2024"
 },{
-  id: "id4",
-  name : "testname",
-  details: "lorem ipsum",
-  date : "16 March 2024",
+  id: "brain-vault",
+  name : "Brain Vault",
+  details: "Embark on an intellectual journey like never before with 'Brain Vault' – a captivating general quiz competition that unlocks the mysteries of knowledge. Join us as team of two and delve into a realm of intriguing questions, where curiosity is the key and every answer unveils a treasure trove of insight. Are you ready to unlock the secrets hidden within the vault of your mind?",
+  date : "17 March 2024",
   posters: [""],
-  price : "",
-  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
-  deadline:"14 March 2024"
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "S Gautham", phone:"9605032027"},{name: "Dhanalekshmi M S", phone:"8089771538"}],
+  link:"https://www.yepdesk.com/brain-vault/private/7ld6ts0uge",
+  deadline:"nil"
 },{
   id: "id4",
   name : "testname",
