@@ -57,7 +57,7 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Anand Gopan G", phone:"8078947608"},{name: "Adithya Ramachandran", phone:"7994637820"}],
   link: "https://www.yepdesk.com/hit-the-wicket/private/sm39974hvr",
-  deadline:"14 March 2024"
+  deadline:"11 March 2024"
 },
 {
   id: "brain-vault",
