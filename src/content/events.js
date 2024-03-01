@@ -50,7 +50,7 @@ const eventsDetails = [{
   deadline:"11 March 2024"
 },{
   id: "hit-the-wicket",
-  name : "Hit The Wicket ",
+  name : "Hit The Wicket",
   details: "Get ready for the ultimate showdown at Athena, the 22nd Annual ISTE State Student Convention of ISTE Kerala Section. ISTE TKMCE presents Hit the Wicket Challenge, an event that centers around precise overarm bowling and the spirit of fair play. Polish up your wicket-taking skills, it's time to shine!",
   date : "17 March 2024",
   posters: ["/Hit the wicket.png","/Hit the wicket guideline.png"],
