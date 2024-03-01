@@ -58,8 +58,17 @@ const eventsDetails = [{
   coordinators : [{name: "Anand Gopan G", phone:"8078947608"},{name: "Adithya Ramachandran", phone:"7994637820"}],
   link: "https://www.yepdesk.com/hit-the-wicket/private/sm39974hvr",
   deadline:"11 March 2024"
-},
-{
+},{
+  id: "among-us",
+  name : "Among Us",
+  details: "Experience the thrill of Among Us like never before in a real-life extravaganza conducted by ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section. Complete tasks, call meetings, vote out imposters, or survive as one yourself. It's an unmatched adventure for the boldest among us.",
+  date : "17 March 2024",
+  posters: ["/chem among us.png","/among us guidelines.png"],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Theertha", phone:"9207977670"},{name: "Shalfa", phone:"9995813296"}],
+  link: "https://www.yepdesk.com/among-us1/private/lff395famc",
+  deadline:"11 March 2024"
+},{
   id: "brain-vault",
   name : "Brain Vault",
   details: "Embark on an intellectual journey like never before with 'Brain Vault' – a captivating general quiz competition that unlocks the mysteries of knowledge. Join us as team of two and delve into a realm of intriguing questions, where curiosity is the key and every answer unveils a treasure trove of insight. Are you ready to unlock the secrets hidden within the vault of your mind?",
@@ -89,16 +98,6 @@ const eventsDetails = [{
   coordinators : [{name: "Adhil Noufal", phone:"8137074224"},{name: "Parvathi S", phone:"9645919203"}],
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
   deadline:"14 March 2024"
-},{
-  id: "among-us",
-  name : "Among Us",
-  details: "Experience the thrill of Among Us like never before in a real-life extravaganza conducted by ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section. Complete tasks, call meetings, vote out imposters, or survive as one yourself. It's an unmatched adventure for the boldest among us.",
-  date : "17 March 2024",
-  posters: [""],
-  price : "This Event Comes Under Delegate Pass",
-  coordinators : [{name: "Theertha", phone:"9207977670"},{name: "Shalfa", phone:"9995813296"}],
-  link: "https://www.yepdesk.com/among-us1/private/lff395famc",
-  deadline:"11 March 2024"
 },{
   id: "lablockdown",
   name : "Lab Lockdown",
