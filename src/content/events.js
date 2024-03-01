@@ -49,6 +49,17 @@ const eventsDetails = [{
   link:"https://www.yepdesk.com/warped-up-/private/e8ukm2l0g",
   deadline:"11 March 2024"
 },{
+  id: "hit-the-wicket",
+  name : "Hit The Wicket ",
+  details: "Get ready for the ultimate showdown at Athena, the 22nd Annual ISTE State Student Convention of ISTE Kerala Section. ISTE TKMCE presents Hit the Wicket Challenge, an event that centers around precise overarm bowling and the spirit of fair play. Polish up your wicket-taking skills, it's time to shine!",
+  date : "17 March 2024",
+  posters: ["/hit the wicket.png","/hit the wicket guideline.png"],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Anand Gopan G", phone:"8078947608"},{name: "Adithya Ramachandran", phone:"7994637820"}],
+  link: "https://www.yepdesk.com/hit-the-wicket/private/sm39974hvr",
+  deadline:"14 March 2024"
+},
+{
   id: "brain-vault",
   name : "Brain Vault",
   details: "Embark on an intellectual journey like never before with 'Brain Vault' – a captivating general quiz competition that unlocks the mysteries of knowledge. Join us as team of two and delve into a realm of intriguing questions, where curiosity is the key and every answer unveils a treasure trove of insight. Are you ready to unlock the secrets hidden within the vault of your mind?",
@@ -77,16 +88,6 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Adhil Noufal", phone:"8137074224"},{name: "Parvathi S", phone:"9645919203"}],
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
-  deadline:"14 March 2024"
-},{
-  id: "hit-the-wicket",
-  name : "Hit The Wicket ",
-  details: "Get ready for the ultimate showdown at Athena, the 22nd Annual ISTE State Student Convention of ISTE Kerala Section. ISTE TKMCE presents Hit the Wicket Challenge, an event that centers around precise overarm bowling and the spirit of fair play. Polish up your wicket-taking skills, it's time to shine!",
-  date : "17 March 2024",
-  posters: [""],
-  price : "This Event Comes Under Delegate Pass",
-  coordinators : [{name: "Anand Gopan G", phone:"8078947608"},{name: "Adithya Ramachandran", phone:"7994637820"}],
-  link: "https://www.yepdesk.com/hit-the-wicket/private/sm39974hvr",
   deadline:"14 March 2024"
 },{
   id: "id4",
