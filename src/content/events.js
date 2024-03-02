@@ -109,14 +109,15 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
   deadline:"14 March 2024"
 },{
-  id: "id5",
-  name : "testname",
-  details: "lorem ipsum",
+  id: "Tick_tick_boom",
+  name : "Tick tick boom",
+  details: "ISTE TKMCE presents Tick tick boom at ATHENA, the 22nd Annual ISTE State Students' Convention of ISTE Kerala Section. Prepare yourself to decipher messages, identify logic gates, and design circuits all within the same venue! Can you defuse the bomb using your understanding of logic gates? Master the basics, conquer the bomb! Your understanding of basic logic gates could be the key to victory. Don't underestimate the power of fundamentals in this high-stakes challenge!",
   date : "16 March 2024",
   posters: [""],
-  price : "",
-  coordinators : [{name: "hehe", phone:"999999999"},{name: "hehe", phone:"99999999"}],
-  deadline:"nil"
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Adalene Mendez", phone:"9400216171"},{name: "Jubin Nizamudeen", phone:"9562073389"}],
+  link: "https://www.yepdesk.com/tick-tick-boom/private/tlurfstokp",
+  deadline:"11 March 2024"
 },{
   id: "id5",
   name : "testname",
