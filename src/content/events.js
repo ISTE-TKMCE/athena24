@@ -87,7 +87,7 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "S Gautham", phone:"9605032027"},{name: "Dhanalekshmi M S", phone:"8089771538"}],
   link:"https://www.yepdesk.com/brain-vault/private/7ld6ts0uge",
-  deadline:"1 March 2024"
+  deadline:"11 March 2024"
 },{
   id: "rapid-talks",
   name : "Rapid Talk",
