@@ -128,6 +128,16 @@ const eventsDetails = [{
   coordinators : [{name: "Arsha R P", phone:"8547962543"},{name: "C Nandana Rani", phone:"8301996706"}],
   link: "https://www.yepdesk.com/structhunt1/private/g74vvbhtlt",
   deadline:"11 March 2024"
+},{
+  id: "sumo_robowar",
+  name : "Sumo Robowar",
+  details: "",
+  date : "16 March 2024",
+  posters: [""],
+  price : "nil",
+  coordinators : [{name: "hehe", phone:"9999999999"},{name: "hehe", phone:"9999999999"}],
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSfkiVTSf57YG77XDdpbCHQOE6B1-9NRA9xiBvHGkiMqP8gY4g/viewform?fbzx=-4246035729001593247",
+  deadline:"nil"
 }
 
 ]
