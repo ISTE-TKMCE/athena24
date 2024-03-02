@@ -103,7 +103,7 @@ const eventsDetails = [{
   name : "Constructathon",
   details: "Welcome to the forefront of innovation in civil engineering! Embark on a transformative journey with ISTE TKMCE's Constructathon, a pivotal component of ATHENA, the 22nd Annual State Students' Convention of ISTE Kerala Section. In the spirit of Bob the Builder's resounding 'Yes, we can!' from his tools, Constructathon invites you to be a proactive creator, transcending traditional hackathons.",
   date : "16 & 17th March 2024",
-  posters: ["/constructathon.jpg","/constructahon guidelines.jpg"],
+  posters: [""],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Adhil Noufal", phone:"8137074224"},{name: "Parvathi S", phone:"9645919203"}],
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
