@@ -69,6 +69,16 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/among-us1/private/lff395famc",
   deadline:"11 March 2024"
 },{
+  id: "lablockdown",
+  name : "Lab Lockdown",
+  details: "Amidst a reactor meltdown, the industrial complex is in turmoil. Your task? Strategically navigate through challenging obstacles to secure freedom, with your team of 3-4 members. LabLockdown conducted by ATHENA, 22ndAnnual State Students'Convention of ISTE Kerala Section, offers more than just an escape – it's a journey of trials, teamwork, and triumph.",
+  date : "16 March 2024",
+  posters: ["/chem lockdown.png","/guides chem lockdown.png"],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Heloise Jose", phone:"8138010368"},{name: "Sanjith Santhosh", phone:"6282108015"}],
+  link: "https://www.yepdesk.com/lab-lockdown/private/6rc799u859",
+  deadline:"11 March 2024"
+},{
   id: "brain-vault",
   name : "Brain Vault",
   details: "Embark on an intellectual journey like never before with 'Brain Vault' – a captivating general quiz competition that unlocks the mysteries of knowledge. Join us as team of two and delve into a realm of intriguing questions, where curiosity is the key and every answer unveils a treasure trove of insight. Are you ready to unlock the secrets hidden within the vault of your mind?",
@@ -98,16 +108,6 @@ const eventsDetails = [{
   coordinators : [{name: "Adhil Noufal", phone:"8137074224"},{name: "Parvathi S", phone:"9645919203"}],
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
   deadline:"14 March 2024"
-},{
-  id: "lablockdown",
-  name : "Lab Lockdown",
-  details: "Amidst a reactor meltdown, the industrial complex is in turmoil. Your task? Strategically navigate through challenging obstacles to secure freedom, with your team of 3-4 members. LabLockdown conducted by ATHENA, 22ndAnnual State Students'Convention of ISTE Kerala Section, offers more than just an escape – it's a journey of trials, teamwork, and triumph.",
-  date : "16 March 2024",
-  posters: [""],
-  price : "This Event Comes Under Delegate Pass",
-  coordinators : [{name: "Heloise Jose", phone:"8138010368"},{name: "Sanjith Santhosh", phone:"6282108015"}],
-  link: "https://www.yepdesk.com/lab-lockdown/private/6rc799u859",
-  deadline:"11 March 2024"
 },{
   id: "id5",
   name : "testname",
