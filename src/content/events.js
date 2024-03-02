@@ -119,14 +119,15 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/tick-tick-boom/private/tlurfstokp",
   deadline:"11 March 2024"
 },{
-  id: "id5",
-  name : "testname",
-  details: "lorem ipsum",
+  id: "structhunt",
+  name : "StructHunt",
+  details: "Ready to dig into the foundations of innovation and build your way to triumph? Brace yourself for StructHunt, an enthralling treasure hunt presented by ISTE TKMCE at ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section that will challenge your engineering insight, test your problem-solving skills, and propel you on a quest for construction mastery. Put your basic civil engineering principles, memory, and critical thinking skills to the test in this treasure hunt event. Form a team and take on the challenge!",
   date : "16 March 2024",
   posters: [""],
-  price : "",
-  coordinators : [{name: "hehe", phone:"999999999"},{name: "hehe", phone:"99999999"}],
-  deadline:"nil"
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Arsha R P", phone:"8547962543"},{name: "C Nandana Rani", phone:"8301996706"}],
+  link: "https://www.yepdesk.com/structhunt1/private/g74vvbhtlt",
+  deadline:"11 March 2024"
 }
 
 ]
