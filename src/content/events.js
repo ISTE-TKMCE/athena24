@@ -141,7 +141,7 @@ const eventsDetails = [{
 },{
   id: "cadwar",
   name : "Cadwar",
-  details: "CADWAR-a challenge to your designing brilliance and your AutoCAD speed. An opportunity to demonstrate their technical skills by designing the given product within the allotted time.This event unfolds in 2 rounds, one with time limit  round and second with objective along with time limit.",
+  details: "Get ready to dive into the extraordinary world of design with CADWAR, AutoCAD Design Competition presented by ISTE TKMCE as part of ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section. Your ticket to showcase design brilliance is here! This is your opportunity to flaunt your AutoCAD prowess, and demonstrate your design abilities and technical expertise within a set timeframe. CADWAR awaits – where brilliance knows no boundaries.",
   date : "17 March 2024",
   posters: [""],
   price : "₹100 (No Delegate Pass Required)",
