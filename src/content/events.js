@@ -99,6 +99,26 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/rapid-talk/private/smv76ovoo3",
   deadline:"11 March 2024"
 },{
+  id: "structhunt",
+  name : "StructHunt",
+  details: "Ready to dig into the foundations of innovation and build your way to triumph? Brace yourself for StructHunt, an enthralling treasure hunt presented by ISTE TKMCE at ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section that will challenge your engineering insight, test your problem-solving skills, and propel you on a quest for construction mastery. Put your basic civil engineering principles, memory, and critical thinking skills to the test in this treasure hunt event. Form a team and take on the challenge!",
+  date : "16 March 2024",
+  posters: ["/structhunt v1.jpg","/structhunt guidelines.jpg"],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Arsha R P", phone:"8547962543"},{name: "C Nandana Rani", phone:"8301996706"}],
+  link: "https://www.yepdesk.com/structhunt1/private/g74vvbhtlt",
+  deadline:"11 March 2024"
+},{
+  id: "sumo_robowar",
+  name : "Sumo RoboWar",
+  details: "Unleash Your Inner Robot Warrior! A battle of accuracy and strategy awaits you. Test your engineering prowess and robotic expertise with the SUMO ROBOWAR brought by ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section. Design a bot that strikes the perfect balance between power and agility. For those with the perfect balance of design, control, and persistence, victory is in store! Unleash the robotic warrior within and claim victory in the SUMO ROBOWAR!",
+  date : "16 March 2024",
+  posters: ["/robowar.jpg"],
+  price : "₹600 (No Delegate Pass Required)",
+  coordinators : [{name: "Ajesh J S", phone:"8078461354"},{name: "Bharath Mohan", phone:"9497512166"}],
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSfkiVTSf57YG77XDdpbCHQOE6B1-9NRA9xiBvHGkiMqP8gY4g/viewform?fbzx=-4246035729001593247",
+  deadline:"11 March 2024"
+},{
   id: "constructathon",
   name : "Constructathon",
   details: "Welcome to the forefront of innovation in civil engineering! Embark on a transformative journey with ISTE TKMCE's Constructathon, a pivotal component of ATHENA, the 22nd Annual State Students' Convention of ISTE Kerala Section. In the spirit of Bob the Builder's resounding 'Yes, we can!' from his tools, Constructathon invites you to be a proactive creator, transcending traditional hackathons.",
@@ -119,24 +139,23 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/tick-tick-boom/private/tlurfstokp",
   deadline:"11 March 2024"
 },{
-  id: "structhunt",
-  name : "StructHunt",
-  details: "Ready to dig into the foundations of innovation and build your way to triumph? Brace yourself for StructHunt, an enthralling treasure hunt presented by ISTE TKMCE at ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section that will challenge your engineering insight, test your problem-solving skills, and propel you on a quest for construction mastery. Put your basic civil engineering principles, memory, and critical thinking skills to the test in this treasure hunt event. Form a team and take on the challenge!",
-  date : "16 March 2024",
-  posters: ["/structhunt v1.jpg","/structhunt guidelines.jpg"],
-  price : "This Event Comes Under Delegate Pass",
-  coordinators : [{name: "Arsha R P", phone:"8547962543"},{name: "C Nandana Rani", phone:"8301996706"}],
-  link: "https://www.yepdesk.com/structhunt1/private/g74vvbhtlt",
+  id: "cadwar",
+  name : "Cadwar",
+  details: "CADWAR-a challenge to your designing brilliance and your AutoCAD speed. An opportunity to demonstrate their technical skills by designing the given product within the allotted time.This event unfolds in 2 rounds, one with time limit  round and second with objective along with time limit.",
+  date : "17 March 2024",
+  posters: [""],
+  price : "₹100 (No Delegate Pass Required)",
+  coordinators : [{name: "Ankhur", phone:"9747243721"},{name: "Vysakh", phone:"8089470081"}],
+  link: "https://www.yepdesk.com/cadwar1/private/oih1sqe3dd",
   deadline:"11 March 2024"
 },{
-  id: "sumo_robowar",
-  name : "Sumo RoboWar",
-  details: "Unleash Your Inner Robot Warrior! A battle of accuracy and strategy awaits you. Test your engineering prowess and robotic expertise with the SUMO ROBOWAR brought by ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section. Design a bot that strikes the perfect balance between power and agility. For those with the perfect balance of design, control, and persistence, victory is in store! Unleash the robotic warrior within and claim victory in the SUMO ROBOWAR!",
+  id: "id5",
+  name : "testname",
+  details: "lorem ipsum",
   date : "16 March 2024",
-  posters: ["/cadwar.jpg"],
-  price : "₹600 (No Delegate Pass Required)",
-  coordinators : [{name: "Ajesh J S", phone:"8078461354"},{name: "Bharath Mohan", phone:"9497512166"}],
-  link: "https://docs.google.com/forms/d/e/1FAIpQLSfkiVTSf57YG77XDdpbCHQOE6B1-9NRA9xiBvHGkiMqP8gY4g/viewform?fbzx=-4246035729001593247",
+  posters: [""],
+  price : "",
+  coordinators : [{name: "hehe", phone:"999999999"},{name: "hehe", phone:"9999999"}],
   deadline:"11 March 2024"
 }
 
