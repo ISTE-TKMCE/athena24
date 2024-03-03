@@ -130,8 +130,8 @@ const eventsDetails = [{
   deadline:"11 March 2024"
 },{
   id: "sumo_robowar",
-  name : "Sumo Robo War",
-  details: "Unleash Your Inner Robot Warrior! A battle of accuracy and strategy awaits you. Test your engineering prowess and robotic expertise with the SUMO ROBOT WAR brought by ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section. Design a bot that strikes the perfect balance between power and agility. For those with the perfect balance of design, control, and persistence, victory is in store! Unleash the robotic warrior within and claim victory in the SUMO ROBOT WAR!",
+  name : "Sumo RoboWar",
+  details: "Unleash Your Inner Robot Warrior! A battle of accuracy and strategy awaits you. Test your engineering prowess and robotic expertise with the SUMO ROBOWAR brought by ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section. Design a bot that strikes the perfect balance between power and agility. For those with the perfect balance of design, control, and persistence, victory is in store! Unleash the robotic warrior within and claim victory in the SUMO ROBOWAR!",
   date : "16 March 2024",
   posters: ["/cadwar.jpg"],
   price : "₹600 (No Delegate Pass Required)",
