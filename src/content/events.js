@@ -149,13 +149,14 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/cadwar1/private/oih1sqe3dd",
   deadline:"11 March 2024"
 },{
-  id: "id5",
-  name : "testname",
+  id: "gridlock",
+  name : "Grid - Lock",
   details: "lorem ipsum",
   date : "16 March 2024",
   posters: [""],
   price : "",
-  coordinators : [{name: "hehe", phone:"999999999"},{name: "hehe", phone:"9999999"}],
+  coordinators : [{name: "Sreya Sunil", phone:"7736886463"},{name: "Ashin S Shaji", phone:"7306298915"}],
+  link: "https://www.yepdesk.com/grid-lock/private/46q5lagu2r",
   deadline:"11 March 2024"
 }
 
