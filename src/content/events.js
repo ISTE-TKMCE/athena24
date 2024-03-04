@@ -127,7 +127,7 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Adhil Noufal", phone:"8137074224"},{name: "Parvathi S", phone:"9645919203"}],
   link: "https://www.yepdesk.com/constructathon/private/1akj95mvl1",
-  deadline:"14 March 2024"
+  deadline:"11 March 2024"
 },{
   id: "Tick_tick_boom",
   name : "Tick tick boom",
