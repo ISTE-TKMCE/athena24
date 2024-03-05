@@ -162,10 +162,10 @@ const eventsDetails = [{
   id: "volthunt",
   name : "VoltHunt",
   details: "",
-  date : "nil",
+  date : "16 March 2024",
   posters: [],
   price : "",
-  coordinators : [{name: "nil", phone:"nil"},{name: "nil", phone:"nil"}],
+  coordinators : [{name: "Anna Joy", phone:"9747704287"},{name: "Mohammad sahad", phone:"9497718393"}],
   // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
   deadline:"nil"
 },{
