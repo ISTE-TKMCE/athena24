@@ -168,6 +168,16 @@ const eventsDetails = [{
   coordinators : [{name: "nil", phone:"nil"},{name: "nil", phone:"nil"}],
   // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
   deadline:"nil"
+},{
+  id: "Rendercraft",
+  name : "Rendercraft",
+  details: "",
+  date : "nil",
+  posters: [],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "nil", phone:"nil"},{name: "nil", phone:"nil"}],
+  // link: "https://www.yepdesk.com/rendercraft/private/3b0epgupn5",
+  deadline:"nil"
 }
 
 ]
