@@ -153,11 +153,21 @@ const eventsDetails = [{
   name : "GridLock",
   details: "Get ready for a thrilling adventure with Gridlock, presented by ISTE TKMCE at Athena, the 22nd Annual ISTE State Students’ Convention of ISTE Kerala Section. Join forces with your team to navigate through challenging laser mazes, decode clues, solve engaging jigsaw puzzles, and unravel mind-twisting hints. Step into a specially designed maze filled with laser beams, where your agility and strategic thinking are key to avoiding triggered alarms.",
   date : "17 March 2024",
-  posters: [""],
+  posters: ["/ec mus.png","/ec mus guidelines.png"],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Sreya Sunil", phone:"7736886463"},{name: "Ashin S Shaji", phone:"7306298915"}],
   link: "https://www.yepdesk.com/grid-lock/private/46q5lagu2r",
   deadline:"11 March 2024"
+},{
+  id: "volthunt",
+  name : "VoltHunt",
+  details: "",
+  date : "nil",
+  posters: [],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "nil", phone:"nil"},{name: "nil", phone:"nil"}],
+  link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
+  deadline:"nil"
 }
 
 ]
