@@ -172,12 +172,12 @@ const eventsDetails = [{
   id: "Rendercraft",
   name : "Rendercraft",
   details: "Get ready to transform a secret model into a breathtaking masterpiece at ATHENA, 22nd Annual State Students’ Convention of ISTE Kerala Section. ISTE TKMCE presents Rendercraft, 3D Rendering Challenge showcasing both creativity and technical prowess, where artists navigate unexpected twists and master time management to bring their vision to life. Join us to unleash your creativity.",
-  date : "nil",
-  posters: [],
+  date : "16 March 2024",
+  posters: ["/rendercraft.jpg","/rendercraft guidelines.jpg"],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Mathew Jose", phone:"7902469452"},{name: "Aromal RM", phone:"8606428364"}],
-  // link: "https://www.yepdesk.com/rendercraft/private/3b0epgupn5",
-  deadline:"nil"
+  link: "https://www.yepdesk.com/rendercraft/private/3b0epgupn5",
+  deadline:"11 March 2024"
 }
 
 ]
