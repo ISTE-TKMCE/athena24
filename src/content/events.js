@@ -176,7 +176,7 @@ const eventsDetails = [{
   posters: [],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Mathew Jose", phone:"7902469452"},{name: "Aromal RM", phone:"8606428364"}],
-  link: "https://www.yepdesk.com/rendercraft/private/3b0epgupn5",
+  // link: "https://www.yepdesk.com/rendercraft/private/3b0epgupn5",
   deadline:"nil"
 }
 
