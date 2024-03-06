@@ -178,6 +178,16 @@ const eventsDetails = [{
   coordinators : [{name: "Mathew Jose", phone:"7902469452"},{name: "Aromal RM", phone:"8606428364"}],
   link: "https://www.yepdesk.com/rendercraft/private/3b0epgupn5",
   deadline:"11 March 2024"
+},{
+  id: "pavilx",
+  name : "PavilX",
+  details: "PavilX, presented by ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section, invites participants to redefine art of architecture through creativity and innovation. The competition shows uniqueness, challenging participants to craft pavilions that showcases their individual perspectives and integrate the theme unveiled at the event. Get set to showcase your architectural and design abilities.",
+  date : "17 March 2024",
+  posters: [""],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Meenakshi K Prasannan", phone:"7306690336"},{name: "Muhammed Bin Shafeeq T P", phone:"9061310160"}],
+  link: "https://www.yepdesk.com/pavilx/private/s9hotoan7e",
+  deadline:"11 March 2024"
 }
 
 ]
