@@ -20,14 +20,12 @@ const workshopDetails= [{
   link: "https://bit.ly/_iot_automation"
 },{
   id: "id3",
-  name : "Driving System",
-  details: "Explore the evolution of autonomous driving technology at the Autonomous Driving System Worksop at Athena, the 22nd Annual State Student Convention of ISTE Kerala Section. Under the guidance of Mr. Midhun M, founder of Revertech IT Solutions, engage in hands-on experiences with sensor technology and master machine learning concepts.  ",
-  date : "16 March 2024 & 17 March 2024",
-  deadline : "8 March 2024",
+  name : "testname",
+  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+  date : "19-01-2024",
   posters: [""],
   price : 200,
-  coordinators : [{name: "Risal", phone:"9188537198"},{name: "Sinan", phone:"9526075042"}],
-  link: "https://bit.ly/ATHENA_DRIVING_SYSTEM"
+  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
 },{
   id: "id3",
   name : "testname",

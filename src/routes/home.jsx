@@ -26,14 +26,19 @@ export default function Home() {
       <Blur class="hidden md:block" coordinates={blur2Coordinates} />
        <Hero/> 
       <div>
-        <Link to="/schedule"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Schedule</div></Link>
         <div className="cursor-pointer bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative" onClick={()=> {setToggle(!toggle)}}>About Athena
-          {toggle ? <div className="text-xl p-3 ">ISTE TKMCE is glad to present ATHENA, 22nd Annual ISTE State Students' Convention. ATHENA is a manifesto of opportunities for young people to demonstrate and enrich their talents as well as to bring their ideas into life.The fiesta exhibits a new countenance of vigor to transform inventiveness to existence and enhance abounding opportunities to enlive and refurbish the flair of innovation in young minds. With the theme Revolutionizing Tomorrow with Technology, ISTE TKMCE is poised to give every student a truly one of a kind experience and a plethora of memories and valuable insights to carry on with you.</div> : null}
+          {toggle ? <div className="text-xl p-3 ">ISTE TKMCE is glad to present ATHENA, 22nd Annual ISTE State Students' Convention. ATHENA is a manifesto of opportunities for young people to demonstrate and enrich their talents as well as to bring their ideas into life. The fiesta exhibits a new countenance of vigor to transform inventiveness to existence and enhance abounding opportunities to enlive and refurbish the flair of innovation in young minds. With the theme Revolutionizing Tomorrow with Technology, ISTE TKMCE is poised to give every student a truly one of a kind experience and a plethora of memories and valuable insights to carry on with you.</div> : null}
         </div>
+        <Link to="/schedule"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Schedule</div></Link>
+        <Link to="/delegatepass"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Get Delegate Pass</div></Link>
+        <Link to="/accommodation"><div className="bg-yellow-300 text-3xl text-black font-primary text-center py-3 my-3 relative">Accommodation</div></Link>
+        
        <CustomH name="Events" type="1"/>
         <Carousel event/>
        <CustomH name="Workshops" type="1"/>
-        <Carousel/>
+        <Carousel ws/>
+        <CustomH name="Talk Show" type="1"/>
+        <Carousel talk/>
       </div>
       </div>
   );

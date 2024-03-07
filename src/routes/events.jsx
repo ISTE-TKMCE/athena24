@@ -6,9 +6,9 @@ export default function Events() {
     return e.date == "19-01-2024"
   })
   return(
-    <div className="w-screen ">
+    <div className="w-screen  grid">
       <CustomH name="Events" type="1"/>
-      <div className='grid grid-cols-1 md:grid-cols-3 px-8'>
+      <div className='grid justify-items-center grid-cols-1 md:grid-cols-3 '>
     {eventsDetails.map((event) => (
             <Card e eventid={event.id}/>
         ))}

@@ -1,15 +1,15 @@
 const scheduleDetails = [{
-  name : "Event",
-  date : "24-02-2024",
+  name : "Coming Soon",
+  date : "16-03-2024",
   time : "4pm",
-  des : "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+  des : "Update Soon...",
   type : "event",
   id : "id"
 },{
-  name : "Event",
-  date : "24-02-2024",
+  name : "Coming Soon",
+  date : "17-03-2024",
   time : "5pm",
-  des : "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+  des : "Update Soon...",
   type : "event",
   id : "id"
 

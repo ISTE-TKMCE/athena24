@@ -8,9 +8,9 @@ export default function Events() {
   return(
     <div className=" w-screen ">
       <CustomH name="Workshops" type="1"/>
-      <div className='grid grid-cols-1 md:grid-cols-3 px-8'>
+      <div className='grid grid-cols-1 md:grid-cols-3 px-8 '>
     {workshopDetails.map((event) => (
-            <Card eventid={event.id}/>
+            <Card eventid={event.id} w/>
         ))}
     </div>
       

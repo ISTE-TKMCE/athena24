@@ -1,12 +1,11 @@
 import { useLocation, Link } from "react-router-dom";
 import CustomH from "../components/customh.jsx";
-import eventsDetails from "../content/events.js"
+import talkshowDetails from "../content/talkshow.js"
 
-
-export default function EventPage() {
+export default function TalkShowPage() {
   const location = useLocation();
   const eventid = location.pathname.split("/");
-  let event = eventsDetails.filter((e) => {
+  let event = talkshowDetails.filter((e) => {
     return e.id == eventid[2];
   });
   event = event[0];
@@ -28,13 +27,10 @@ export default function EventPage() {
                 Description
               </span>
               <div className="mt-4">{event.details}</div>
-              {event.rulebook ? 
-                <a href={event.rulebook} target="_blank"><div className="text-yellow-300 text-xl font-bold border my-10 py-1 text-center rounded-md">Download RuleBook</div></a>
-                : null}
             </div>
-            <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}</div>
+            <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}Rs</div>
             <div className="text-xl font-bold text-yellow-300 mt-2">Deadline: {event.deadline}</div>
-            <div className="mt-7">
+            <div className="mt-10">
               <div className="font-bold my-2 text-lg">Date : {event.date}</div>
               <div className="underline font-bold text-lg">Coordinators </div>
               <div>

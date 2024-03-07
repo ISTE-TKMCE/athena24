@@ -9,7 +9,7 @@ export default function Schedule() {
           return(<div className="grid grid-cols-3 m-5 gap-2">
             <div className="grid place-content-center bg-yellow-300 text-black min-h-32">
               <div className="text-3xl font-bold">{e.date.split("-")[0]}</div> 
-              <div className="font-bold">Feb</div>
+              <div className="font-bold">March</div>
             </div>
             <div className="col-span-2 m-3">
               <div className="text-2xl font-bold">{e.name}</div>
