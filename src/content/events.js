@@ -187,7 +187,7 @@ const eventsDetails = [{
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Meenakshi K Prasannan", phone:"7306690336"},{name: "Muhammed Bin Shafeeq T P", phone:"9061310160"}],
   link: "https://www.yepdesk.com/pavilx/private/s9hotoan7e",
-  deadline:"11 March 2024"
+  deadline:"11 March 2024",
 }
 
 ]

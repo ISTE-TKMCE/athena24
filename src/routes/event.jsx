@@ -28,6 +28,9 @@ export default function EventPage() {
                 Description
               </span>
               <div className="mt-4">{event.details}</div>
+              {event.rulebook ? 
+                <a href={event.rulebook} target="_blank"><div className="text-yellow-300 text-xl font-bold border my-10 py-1 text-center rounded-md">Download RuleBook</div></a>
+                : null}
             </div>
             <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}</div>
             <div className="text-xl font-bold text-yellow-300 mt-2">Deadline: {event.deadline}</div>
