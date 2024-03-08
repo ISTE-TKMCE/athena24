@@ -166,7 +166,7 @@ const eventsDetails = [{
   posters: [],
   price : "₹300",
   coordinators : [{name: "Anna Joy", phone:"9747704287"},{name: "Mohammad sahad", phone:"9497718393"}],
-  link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
+  // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
   deadline:"11 March 2024"
 },{
   id: "Rendercraft",
