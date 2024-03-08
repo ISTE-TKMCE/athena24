@@ -164,7 +164,7 @@ const eventsDetails = [{
   details: "",
   date : "16 March 2024",
   posters: [],
-  price : "",
+  price : "₹300",
   coordinators : [{name: "Anna Joy", phone:"9747704287"},{name: "Mohammad sahad", phone:"9497718393"}],
   // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
   deadline:"nil"
