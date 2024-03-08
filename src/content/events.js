@@ -159,16 +159,6 @@ const eventsDetails = [{
   link: "https://www.yepdesk.com/grid-lock/private/46q5lagu2r",
   deadline:"11 March 2024"
 },{
-  id: "volthunt",
-  name : "VoltHunt",
-  details: "The Circuit Odyssey Challenge, VoltHunt, presented by ATHENA,22nd Annual State Students' Convention of ISTE Kerala Section promises to be an exciting journey for circuit enthusiasts.From showcasing groundbreaking circuit concepts to engaging in networking opportunities and thrilling rounds of circuit debugging and building challenges. Surely, it's an event not to be missed!",
-  date : "16 March 2024",
-  posters: [],
-  price : "₹300",
-  coordinators : [{name: "Anna Joy", phone:"9747704287"},{name: "Mohammad sahad", phone:"9497718393"}],
-  // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
-  deadline:"11 March 2024"
-},{
   id: "Rendercraft",
   name : "Rendercraft",
   details: "Get ready to transform a secret model into a breathtaking masterpiece at ATHENA, 22nd Annual State Students’ Convention of ISTE Kerala Section. ISTE TKMCE presents Rendercraft, 3D Rendering Challenge showcasing both creativity and technical prowess, where artists navigate unexpected twists and master time management to bring their vision to life. Join us to unleash your creativity.",
@@ -198,6 +188,16 @@ const eventsDetails = [{
   coordinators : [{name: "Aliya", phone:"7902930644"},{name: "Salman", phone:"8714226241"}],
   // link: "https://www.yepdesk.com/picture-perfect/private/714omc5kh0",
   deadline:"Update Soon...",
+},{
+  id: "volthunt",
+  name : "VoltHunt",
+  details: "The Circuit Odyssey Challenge, VoltHunt, presented by ATHENA,22nd Annual State Students' Convention of ISTE Kerala Section promises to be an exciting journey for circuit enthusiasts.From showcasing groundbreaking circuit concepts to engaging in networking opportunities and thrilling rounds of circuit debugging and building challenges. Surely, it's an event not to be missed!",
+  date : "16 March 2024",
+  posters: [],
+  price : "₹300",
+  coordinators : [{name: "Anna Joy", phone:"9747704287"},{name: "Mohammad sahad", phone:"9497718393"}],
+  // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
+  deadline:"11 March 2024"
 }
 
 ]
