@@ -161,13 +161,13 @@ const eventsDetails = [{
 },{
   id: "volthunt",
   name : "VoltHunt",
-  details: "",
+  details: "The Circuit Odyssey Challenge, VoltHunt, presented by ATHENA,22nd Annual State Students' Convention of ISTE Kerala Section promises to be an exciting journey for circuit enthusiasts.From showcasing groundbreaking circuit concepts to engaging in networking opportunities and thrilling rounds of circuit debugging and building challenges. Surely, it's an event not to be missed!",
   date : "16 March 2024",
   posters: [],
   price : "₹300",
   coordinators : [{name: "Anna Joy", phone:"9747704287"},{name: "Mohammad sahad", phone:"9497718393"}],
   // link: "https://www.yepdesk.com/volt-hunt/private/7j99pjtc0",
-  deadline:"nil"
+  deadline:"11 March 2024"
 },{
   id: "Rendercraft",
   name : "Rendercraft",
