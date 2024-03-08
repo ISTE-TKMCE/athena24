@@ -196,7 +196,7 @@ const eventsDetails = [{
   posters:[""],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Aliya", phone:"7902930644"},{name: "Salman", phone:"8714226241"}],
-  link: "https://www.yepdesk.com/picture-perfect/private/714omc5kh0",
+  // link: "https://www.yepdesk.com/picture-perfect/private/714omc5kh0",
   deadline:"Update Soon...",
 }
 
