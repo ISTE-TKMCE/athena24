@@ -19,13 +19,15 @@ const workshopDetails= [{
   coordinators : [{name: "S Suraj", phone:"7736287859"},{name: "Anjana", phone:"9633944709"}],
   link: "https://bit.ly/_iot_automation"
 },{
-  id: "Autonomous Driving System",
+  id: "autonomous-driving-system",
   name : "Autonomous Driving System",
   details: "In this era of cutting-edge artificial intelligence, if you've ever been captivated by the concept of autonomous driving cars, then this workshop is designed just for you!💫Dive into the evolution and current landscape of autonomous driving technology at the Autonomous Driving System Workshop at Athena, the 22nd Annual State Students' Convention of ISTE Kerala Section.🤩Immerse yourself in a range of activities, from hands-on experiences with sensor technology to mastering Machine Learning concepts.✨",
   date : "16 and 17 of March 2024",
+  deadline : "8 March 2024",
   posters: ["/ads1_01.jpg","/ads2_01.jpg","ads3_01.jpg"],
   price : 200,
-  coordinators : [{name: "Risal", phone:"9188537198"},{name: "Sinan", phone:"9526075042"}]
+  coordinators : [{name: "Risal", phone:"9188537198"},{name: "Sinan", phone:"9526075042"}],
+  link:"https://docs.google.com/forms/d/e/1FAIpQLSe7AGL6sde6VLxeBwwGV8qrq8XRBV2f9HHu5LxqtMimCFlxSg/viewform"
  
 },{
   id: "id3",
