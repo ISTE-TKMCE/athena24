@@ -19,7 +19,7 @@ export default function Schedule() {
               <div key={e.id} className="m-5">
                 <div className="text-2xl font-bold text-center">{e.name}</div>
                 <div className="text-lg">{e.des}</div>
-                <div className="bg-blue-500 top-5 text-center rounded-lg">
+                <div className="bg-blue-500 top-5 text-center rounded">
                   {e.time}
                 </div>
               </div>
@@ -35,9 +35,9 @@ export default function Schedule() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {workshopsTalks.map((e) => (
               <div key={e.id} className="m-5">
-                <div className="text-2xl text-center font-bold">{e.name}</div>
+                <div className="text-2xl text-center font-bold -mt-8">{e.name}</div>
                 <div className="text-lg">{e.des}</div>
-                <div className="bg-blue-500 top-5 text-center rounded-lg">
+                <div className="bg-blue-500 top-5 text-center rounded">
                   {e.time}
                 </div>
               </div>

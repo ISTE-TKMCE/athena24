@@ -92,7 +92,7 @@ const scheduleDetails = [{
 },{
   name : "AUTONOMOUS DRIVING",
   date : "16-03-2024",
-  time : "10pa - 4pm",
+  time : "10am - 4pm",
   des : "",
   type : "WS/TALK",
   id : "id13"
