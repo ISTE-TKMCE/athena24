@@ -18,7 +18,7 @@ export default function WorkshopPage() {
           {event.name}
         </div>
       <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
-        <div >
+        <div className="grid justify-center md:block">
           <CustomCarousel event={event.posters}/>
         </div>
         <div className="flex justify-center">
@@ -28,10 +28,13 @@ export default function WorkshopPage() {
                 Description
               </span>
               <div className="mt-4">{event.details}</div>
+              {event.rulebook ? 
+                <a href={event.rulebook} target="_blank"><div className="text-yellow-300 text-xl font-bold border my-10 py-1 text-center rounded-md">Download RuleBook</div></a>
+                : null}
             </div>
-            <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}Rs</div>
+            <div className="text-xl font-bold text-yellow-300 mt-4">Reg.Fee : {event.price}</div>
             <div className="text-xl font-bold text-yellow-300 mt-2">Deadline: {event.deadline}</div>
-            <div className="mt-10">
+            <div className="mt-7">
               <div className="font-bold my-2 text-lg">Date : {event.date}</div>
               <div className="underline font-bold text-lg">Coordinators </div>
               <div>
