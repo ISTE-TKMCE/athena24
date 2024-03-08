@@ -29,22 +29,6 @@ const workshopDetails= [{
   coordinators : [{name: "Risal", phone:"9188537198"},{name: "Sinan", phone:"9526075042"}],
   link:"https://docs.google.com/forms/d/e/1FAIpQLSe7AGL6sde6VLxeBwwGV8qrq8XRBV2f9HHu5LxqtMimCFlxSg/viewform"
  
-},{
-  id: "id3",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
-  posters: [""],
-  price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
-},{
-  id: "id3",
-  name : "testname",
-  details: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-  date : "19-01-2024",
-  posters: [""],
-  price : 200,
-  coordinators : [{name: "hehe", phone:"99999999"},{name: "hehe", phone:"99999999"}]
-},
+}
 ]
 export default workshopDetails;
