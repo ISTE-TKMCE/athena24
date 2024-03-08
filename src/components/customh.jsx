@@ -13,7 +13,7 @@ export default function CustomH({name,type}) {
     ) 
   }else{
     return(
-      <div className="font-primary text-black text-center text-3xl md:text-4xl  mb-4">
+      <div className="font-primary text-white text-center text-3xl md:text-4xl  mb-4">
         <img className="h-1 md:w-2/5 w-2/12 inline-block m-4" src={linef} alt="" />
         {name}
         <img className="h-1 md:w-2/5 w-2/12 inline-block m-4" src={lines} alt="" />
