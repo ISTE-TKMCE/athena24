@@ -188,6 +188,16 @@ const eventsDetails = [{
   coordinators : [{name: "Meenakshi K Prasannan", phone:"7306690336"},{name: "Muhammed Bin Shafeeq T P", phone:"9061310160"}],
   link: "https://www.yepdesk.com/pavilx/private/s9hotoan7e",
   deadline:"11 March 2024",
+},{
+  id: "picture_perfect",
+  name : "Picture Perfect",
+  details: "Can you perceive the exquisite compositions in what others discern as ordinary? Do you believe you possess the skills to capture that one-in-a-lifetime moment? Challenge yourself at PICTURE PERFECT, hosted by ISTE TKMCE, at ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section. It's an enticing opportunity for all photographers to step forward and showcase their talents. Seize the moment! Grab your cameras, polish those lenses and enroll in this exhilarating event.",
+  date : "16, 17 March 2024",
+  posters:[""],
+  price : "This Event Comes Under Delegate Pass",
+  coordinators : [{name: "Aliya", phone:"7902930644"},{name: "Salman", phone:"8714226241"}],
+  link: "https://www.yepdesk.com/picture-perfect/private/714omc5kh0",
+  deadline:"Update Soon...",
 }
 
 ]
