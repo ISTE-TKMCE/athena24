@@ -13,7 +13,7 @@ export default function Schedule() {
       {/* Render Events */}
       {events.length > 0 && (
         <div className="max-w-4xl mx-auto">
-          <CustomH name="Event" type="3" />
+          <CustomH name="Events" type="3" />
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 -mt-5">
             {events.map((e) => (
               <div key={e.id} className="m-5 -mt-3">
