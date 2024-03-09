@@ -170,7 +170,7 @@ const eventsDetails = [{
   deadline:"11 March 2024"
 },{
   id: "pavilx",
-  name : "PavilX",
+  name : "Pavil X",
   details: "PavilX, presented by ATHENA, 22nd Annual State Students' Convention of ISTE Kerala Section, invites participants to redefine art of architecture through creativity and innovation. The competition shows uniqueness, challenging participants to craft pavilions that showcases their individual perspectives and integrate the theme unveiled at the event. Get set to showcase your architectural and design abilities.",
   date : "17 March 2024",
   posters:["/pavilx.jpg","/pavilax2.png"],

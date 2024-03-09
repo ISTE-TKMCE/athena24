@@ -1,4 +1,4 @@
-const scheduleDetails = [{
+const scheduleDetails1 = [{
   name : "CONSTRUCTATHON",
   date : "16-03-2024",
   time : "11am - 12pm",
@@ -106,4 +106,4 @@ const scheduleDetails = [{
 }
 
 ]
-export default scheduleDetails;
+export default scheduleDetails1;
