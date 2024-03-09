@@ -22,9 +22,9 @@ export default function CustomH({name,type}) {
     )
   }else{
     return(
-      <div className="font-primary text-white text-center text-3xl md:text-4xl  m-10">
+      <div className="font-primary text-white text-center text-3xl md:text-4xl  m-10 mt-12">
         {/* <img className="h-1 md:w-2/5 w-5/12 inline-block -mb-5" src={underline} alt="" /> */}
-        <h2 className="text-3xl text-center font-primary md:text-4xl ">{name}</h2>
+        <h2 className="text-3xl text-center font-primary md:text-4xl">{name}</h2>
         <img className="h-1 md:w-3/5 w-6/12 inline-block -mt-8" src={underline} alt="" />
       </div>
     )
