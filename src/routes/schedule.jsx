@@ -13,8 +13,8 @@ export default function Schedule() {
       {/* Render Events */}
       {events.length > 0 && (
         <div>
-          <h2 className="text-3xl text-center font-primary md:text-4xl mt-16">Events</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <CustomH name="Event" type="3" />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {events.map((e) => (
               <div key={e.id} className="m-5">
                 <div className="text-2xl font-bold text-center">{e.name}</div>
@@ -31,7 +31,7 @@ export default function Schedule() {
       {/* Render Workshops/Talks */}
       {workshopsTalks.length > 0 && (
         <div>
-          <h2 className="text-3xl text-center font-primary md:text-4xl mt-16">Workshops/Talks</h2>
+          <CustomH name="Workshops / Talks" type="3" />
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {workshopsTalks.map((e) => (
               <div key={e.id} className="m-5">
