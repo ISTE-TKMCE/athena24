@@ -55,7 +55,7 @@ return(
       >
           {event.link ? <img src={event.posters[0]} className="object-fill w-full h-full"/>
  : <div className="text-xl font-primary">Coming Soon</div>}
-          {event.link ?<Link to={'/workshop/'+ event.id} className="absolute bottom-10 left-28 border border-yellow-300 w-36 rounded-lg text-center drop-shadow-lg bg-yellow-300 font-primary text-xl px-2 py-1">Register</Link>
+          {event.link ?<Link to={'/talkshow/'+ event.id} className="absolute bottom-10 left-28 border border-yellow-300 w-36 rounded-lg text-center drop-shadow-lg bg-yellow-300 font-primary text-xl px-2 py-1">Register</Link>
  : null}
                 </div>
     </div>
