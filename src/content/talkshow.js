@@ -15,7 +15,7 @@ const talkshowDetails = [{
   details: "Whether you're just starting your research journey or looking to enhance your manuscript writing skills, ATHENA, the 22nd Annual State Students' Convention of ISTE Kerala Section is coordinating a salutary 2-hour talk session on \"An Introduction to Research and Tips for Manuscript Writing\" led by the prominent personality, Dr R Sindhu.Get ready to unlock the secrets of academic research and scholarly writing with this session's expert insights and practical tips.",
   date : "17 March 2024",
   deadline : "13 March 2024",
-  posters: [],
+  posters: ["/manu.jpg"],
   price : "This Event Comes Under Delegate Pass",
   coordinators : [{name: "Abhinand", phone:"8943252293"},{name: "Neha Ann", phone:"8589947116"}],
   link: "https://www.yepdesk.com/an-introduction-to-research-and-tips-for-manuscript-writing/private/bg5a1oh2mj"
