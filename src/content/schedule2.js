@@ -15,14 +15,14 @@ const scheduleDetails2 = [{
   },{
     name : "GRIDLOCK",
     date : "17-03-2024",
-    time : "10am - 1pm",
+    time : "9:30am - 12:30pm",
     des : "",
     type : "Event",
     id : "id2"
   },{
     name : "BRAINVAULT",
     date : "17-03-2024",
-    time : "10am to 1pm",
+    time : "9:30am to 12:30pm",
     des : "",
     type : "Event",
     id : "id3"
@@ -43,7 +43,7 @@ const scheduleDetails2 = [{
   },{
     name : "AMONG US",
     date : "17-03-2024",
-    time : "11am - 1pm",
+    time : "12:30am - 2:30pm",
     des : "",
     type : "Event",
     id : "id6"

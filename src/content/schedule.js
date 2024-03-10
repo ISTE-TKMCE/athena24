@@ -29,14 +29,14 @@ const scheduleDetails1 = [{
 },{
   name : "VOLTHUNT",
   date : "16-03-2024",
-  time : "11:30am - 2:30pm",
+  time : "11am - 2pm",
   des : "",
   type : "Event",
   id : "id4"
 },{
   name : "WARPED UP",
   date : "16-03-2024",
-  time : "12:30pm - 3pm",
+  time : "11am - 1:30pm",
   des : "",
   type : "Event",
   id : "id5"
@@ -57,7 +57,7 @@ const scheduleDetails1 = [{
 },{
   name : "TICK TICK BOOM",
   date : "16-03-2024",
-  time : "1:30pm - 4:30pm",
+  time : "2pm - 5pm",
   des : "",
   type : "Event",
   id : "id8"
