@@ -17,7 +17,7 @@ export default function TalkShowPage() {
           {event.name}
         </div>
       <div className="text-left grid grid-rows-2 gap-y-2  md:grid md:grid-cols-2 md:h-96 font-mono text-lg">
-        <div className="grid justify-center md:block">
+        <div className="grid justify-center md:block md:ml-28 mt-20 md:mt-0">
           <CustomCarousel event={event.posters}/>
         </div>
         <div className="flex justify-center">
