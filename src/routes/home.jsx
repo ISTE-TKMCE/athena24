@@ -37,7 +37,7 @@ export default function Home() {
         <Carousel event/>
        <CustomH name="Workshops" type="1"/>
         <Carousel ws/>
-        <CustomH name="Talk Show" type="1"/>
+        <CustomH name="Talk Session" type="1"/>
         <Carousel talk/>
       </div>
       </div>
