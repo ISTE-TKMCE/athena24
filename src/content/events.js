@@ -114,6 +114,7 @@ const eventsDetails = [{
   details: "Unleash Your Inner Robot Warrior! A battle of accuracy and strategy awaits you. Test your engineering prowess and robotic expertise with the SUMO ROBOWAR brought by ATHENA, the 22nd Annual State Students' Covention of ISTE Kerala Section. Design a bot that strikes the perfect balance between power and agility. For those with the perfect balance of design, control, and persistence, victory is in store! Unleash the robotic warrior within and claim victory in the SUMO ROBOWAR!",
   date : "16 March 2024",
   posters: ["/robowar.jpg"],
+  rulebook: "/Robowar brochure.pdf",
   price : "₹600 (No Delegate Pass Required)",
   coordinators : [{name: "Ajesh J S", phone:"8078461354"},{name: "Bharath Mohan", phone:"9497512166"}],
   link: "https://docs.google.com/forms/d/e/1FAIpQLSfkiVTSf57YG77XDdpbCHQOE6B1-9NRA9xiBvHGkiMqP8gY4g/viewform?fbzx=-4246035729001593247",
