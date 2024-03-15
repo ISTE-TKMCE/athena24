@@ -78,7 +78,7 @@ const scheduleDetails2 = [{
   },{
     name : "MANUSCRIPT WRITING TALK SESSION",
     date : "17-03-2024",
-    time : "10pm - 12pm",
+    time : "10am - 12pm",
     des : "",
     type : "WS/TALK",
     id : "id11"

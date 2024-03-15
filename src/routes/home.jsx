@@ -39,6 +39,8 @@ export default function Home() {
         <Carousel ws/>
         <CustomH name="Talk Session" type="1"/>
         <Carousel talk/>
+        <CustomH name="Sponsors" type="1"/>
+        <div className="grid place-content-center m-5"><img src="/sponsor1.jpeg" className="w-72"/></div>
       </div>
       </div>
   );
